@@ -8,3 +8,8 @@ build/
 *.spec.bak
 .venv/
 save/
+preview/frames/
+preview/_check.png
+preview/shot_*.png
+preview/screenshot_*.png
+*.spec.bak
