@@ -1,0 +1,4062 @@
+[
+  {
+    "id": 501,
+    "name": "Monkey D. Luffy",
+    "anime": "One Piece",
+    "city": "Thousand Sunny Deck",
+    "world": "Grand Line",
+    "architecture": "a lion-headed brig sloop with a sun-yellow figurehead, orange grove and a rooftop aquarium bar",
+    "element": "Rubber",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 92,
+      "atk": 93,
+      "def": 80,
+      "spd": 84,
+      "tech": 52,
+      "build": 70,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Gomu Gomu no Mi / Gear Fifth",
+      "description": "stretching rubber body, Gear Second speed, Gear Fourth bounce-armor, Conqueror's Haki and the cartoon-physics Sun God Nika awakening",
+      "ultimate": "Gear Fifth: Bajrang Gun"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1240,
+    "unlock_level": 1
+  },
+  {
+    "id": 502,
+    "name": "Roronoa Zoro",
+    "anime": "One Piece",
+    "city": "Wano Dojo of Three Blades",
+    "world": "Wano",
+    "architecture": "a shadowed dojo of hanging katana racks, a stone lantern garden and Enma's cursed shrine",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Bruiser",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 88,
+      "atk": 95,
+      "def": 84,
+      "spd": 70,
+      "tech": 58,
+      "build": 66,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Santoryu / King of Hell",
+      "description": "three-sword style with Conqueror's Haki coating; Ashura triple-image assault and Enma's chakra-draining edge",
+      "ultimate": "King of Hell: Three Sword Dragon Damnation"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1192,
+    "unlock_level": 1
+  },
+  {
+    "id": 503,
+    "name": "Nami",
+    "anime": "One Piece",
+    "city": "Weatheria Sky Garden",
+    "world": "Cocoyasi Village",
+    "architecture": "a floating island of weather scientists, tangerine groves and copper storm-gauges",
+    "element": "Lightning",
+    "element_family": "Lightning",
+    "role": "Controller",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 58,
+      "atk": 72,
+      "def": 50,
+      "spd": 74,
+      "tech": 92,
+      "build": 64,
+      "power_level": 68
+    },
+    "signature": {
+      "name": "Clima-Tact / Zeus",
+      "description": "weather manipulation with thunder clouds, mirage illusions and the storm-cloud homie Zeus",
+      "ultimate": "Zeus Breeze Tempo: Raiden Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 1
+  },
+  {
+    "id": 504,
+    "name": "Usopp",
+    "anime": "One Piece",
+    "city": "Boin Archipelago Greenhouse",
+    "world": "Syrup Village",
+    "architecture": "a carnivorous-jungle sniper's nest of pop-green plants, slingshot towers and a giant beetle statue",
+    "element": "Nature",
+    "element_family": "Earth",
+    "role": "Marksman",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 60,
+      "atk": 70,
+      "def": 48,
+      "spd": 62,
+      "tech": 85,
+      "build": 60,
+      "power_level": 64
+    },
+    "signature": {
+      "name": "Kabuto Slingshot / Pop Greens",
+      "description": "long-range plant-seed ammunition: Devil bamboo spikes, Impact Wolf, and Observation Haki sniping",
+      "ultimate": "God Usopp: Meteor Impact Dial"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1120,
+    "unlock_level": 1
+  },
+  {
+    "id": 505,
+    "name": "Vinsmoke Sanji",
+    "anime": "One Piece",
+    "city": "Baratie Floating Restaurant",
+    "world": "East Blue",
+    "architecture": "a fish-shaped ship-restaurant with brass kitchens, a rooftop grill and Zeff's peg-legged statue",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Brawler",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 86,
+      "def": 72,
+      "spd": 88,
+      "tech": 66,
+      "build": 60,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Black Leg / Diable Jambe",
+      "description": "blazing kicks with Sky Walk aerial mobility, Germa exoskeleton toughness and Ifrit Jambe",
+      "ultimate": "Ifrit Jambe: Hell Memories"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 1
+  },
+  {
+    "id": 506,
+    "name": "Tony Tony Chopper",
+    "anime": "One Piece",
+    "city": "Drum Kingdom Castle Lab",
+    "world": "Drum Island",
+    "architecture": "a snow castle atop a drum-shaped peak, cherry blossom snow and Kureha's potion laboratory",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Support",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 70,
+      "atk": 64,
+      "def": 66,
+      "spd": 60,
+      "tech": 80,
+      "build": 58,
+      "power_level": 66
+    },
+    "signature": {
+      "name": "Rumble Ball / Monster Point",
+      "description": "seven transformation points from Brain to Heavy to a towering Monster Point, plus doctor's healing kit",
+      "ultimate": "Monster Point: Kokutei Rumble"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1096,
+    "unlock_level": 1
+  },
+  {
+    "id": 507,
+    "name": "Nico Robin",
+    "anime": "One Piece",
+    "city": "Ohara Tree of Knowledge",
+    "world": "West Blue",
+    "architecture": "the hollow library-tree of Ohara with spiral staircases of banned poneglyph rubbings",
+    "element": "Flower",
+    "element_family": "Cosmic",
+    "role": "Controller",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 62,
+      "atk": 76,
+      "def": 54,
+      "spd": 66,
+      "tech": 90,
+      "build": 70,
+      "power_level": 70
+    },
+    "signature": {
+      "name": "Hana Hana no Mi / Demonio Fleur",
+      "description": "sprouts limbs anywhere to bind and snap enemies, blooms giant arms and the black-winged Demonio Fleur",
+      "ultimate": "Demonio Fleur: Gran Jacuzzi Clutch"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 2
+  },
+  {
+    "id": 508,
+    "name": "Franky",
+    "anime": "One Piece",
+    "city": "Water 7 Shipyard Dock One",
+    "world": "Water 7",
+    "architecture": "a canal city of galleon docks, Franky House scrap towers and the Puffing Tom sea-train station",
+    "element": "Steel",
+    "element_family": "Tech",
+    "role": "Guardian",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 90,
+      "atk": 82,
+      "def": 88,
+      "spd": 50,
+      "tech": 72,
+      "build": 80,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Cyborg Body / General Franky",
+      "description": "cola-powered cyborg with Franky Radical Beam, Coup de Vent air cannon and the General Franky mecha",
+      "ultimate": "General Franky: Franky Radical Beam"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1360,
+    "unlock_level": 2
+  },
+  {
+    "id": 509,
+    "name": "Brook",
+    "anime": "One Piece",
+    "city": "Thriller Bark Ballroom",
+    "world": "Florian Triangle",
+    "architecture": "a haunted ghost-ship ballroom of cobwebbed chandeliers and a violin-shaped stage",
+    "element": "Soul",
+    "element_family": "Shadow",
+    "role": "Assassin",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 56,
+      "atk": 74,
+      "def": 44,
+      "spd": 86,
+      "tech": 70,
+      "build": 54,
+      "power_level": 64
+    },
+    "signature": {
+      "name": "Yomi Yomi no Mi / Soul Solid",
+      "description": "soul-chilling sword slashes, astral projection through walls and a freezing Soul King serenade",
+      "ultimate": "Soul King: Ekaki Uta Hitoyogiri"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1048,
+    "unlock_level": 2
+  },
+  {
+    "id": 510,
+    "name": "Jinbe",
+    "anime": "One Piece",
+    "city": "Fish-Man Island Ryugu Palace",
+    "world": "Fish-Man Island",
+    "architecture": "a bubble-domed coral palace ten thousand meters undersea with karate dojos and shark stables",
+    "element": "Water",
+    "element_family": "Water",
+    "role": "Guardian",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 92,
+      "atk": 80,
+      "def": 90,
+      "spd": 58,
+      "tech": 66,
+      "build": 74,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Fish-Man Karate / Fish-Man Jujutsu",
+      "description": "strikes water itself to hit through armor, spear-waves and the Vagabond Drill wave torrent",
+      "ultimate": "Fish-Man Karate: Buraikan Tidal Strike"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1288,
+    "unlock_level": 2
+  },
+  {
+    "id": 511,
+    "name": "Portgas D. Ace",
+    "anime": "One Piece",
+    "city": "Spade Pirates' Flame Cove",
+    "world": "Grand Line",
+    "architecture": "a cove of ember-lit sails, a spade-branded galleon and a fire-fist cliff carving",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Bombardier",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 72,
+      "atk": 92,
+      "def": 60,
+      "spd": 80,
+      "tech": 64,
+      "build": 60,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Mera Mera no Mi",
+      "description": "fire logia body immune to physical attacks, Fire Fist beams, Flame Pillars and the Dai Enkai Entei sun",
+      "ultimate": "Dai Enkai: Entei"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 3
+  },
+  {
+    "id": 512,
+    "name": "Sabo",
+    "anime": "One Piece",
+    "city": "Revolutionary Army Baltigo HQ",
+    "world": "Baltigo",
+    "architecture": "a white-stone desert fortress of revolutionary banners and Dragon's war table",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 86,
+      "def": 70,
+      "spd": 78,
+      "tech": 68,
+      "build": 64,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Ryusoken / Mera Mera no Mi",
+      "description": "Dragon Claw fist inherited from Dragon, now blazing with Ace's flames: Fire Fist and Dragon's Breath",
+      "ultimate": "Ryusoken: Hiken Dragon Claw"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 3
+  },
+  {
+    "id": 513,
+    "name": "Trafalgar Law",
+    "anime": "One Piece",
+    "city": "Polar Tang Submarine Bay",
+    "world": "North Blue",
+    "architecture": "a yellow submarine's operating theatre docked beneath Flevance's white lead ruins",
+    "element": "Space",
+    "element_family": "Cosmic",
+    "role": "Tactician",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 68,
+      "atk": 84,
+      "def": 62,
+      "spd": 76,
+      "tech": 96,
+      "build": 70,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Ope Ope no Mi / ROOM",
+      "description": "spatial surgeon's Room: Shambles teleport, Mes heart extraction, Gamma Knife and the Awakened K-ROOM",
+      "ultimate": "Awakened: Puncture Wille"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1240,
+    "unlock_level": 3
+  },
+  {
+    "id": 514,
+    "name": "Eustass Kid",
+    "anime": "One Piece",
+    "city": "Victoria Punk Scrapyard",
+    "world": "South Blue",
+    "architecture": "a rust-red scrapyard fortress of magnetized junk towers and a skull-goggled figurehead",
+    "element": "Magnet",
+    "element_family": "Tech",
+    "role": "Berserker",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 82,
+      "atk": 92,
+      "def": 70,
+      "spd": 58,
+      "tech": 66,
+      "build": 68,
+      "power_level": 73
+    },
+    "signature": {
+      "name": "Jiki Jiki no Mi / Punk Gibson",
+      "description": "magnetizes metal into giant arms, Punk Rotten mechs and repels with Awakened Damned Punk",
+      "ultimate": "Damned Punk: Electromagnetic Cannon"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1216,
+    "unlock_level": 3
+  },
+  {
+    "id": 515,
+    "name": "Boa Hancock",
+    "anime": "One Piece",
+    "city": "Amazon Lily Throne Hall",
+    "world": "Kuja Island",
+    "architecture": "a jungle-island palace of snake-carved pillars, warrior arenas and a throne of petrified suitors",
+    "element": "Love",
+    "element_family": "Mind",
+    "role": "Controller",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 84,
+      "def": 60,
+      "spd": 82,
+      "tech": 74,
+      "build": 62,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Mero Mero no Mi",
+      "description": "turns lustful hearts to stone with Mero Mero Mellow, Slave Arrow and Pistol Kiss, plus Conqueror's Haki",
+      "ultimate": "Perfume Femur: Stone Kiss"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 4
+  },
+  {
+    "id": 516,
+    "name": "Dracule Mihawk",
+    "anime": "One Piece",
+    "city": "Kuraigana Castle",
+    "world": "Kuraigana Island",
+    "architecture": "a gloomy stone castle on a baboon-haunted island, a cross-shaped sword pedestal and a lone throne",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 84,
+      "atk": 98,
+      "def": 82,
+      "spd": 72,
+      "tech": 88,
+      "build": 76,
+      "power_level": 83
+    },
+    "signature": {
+      "name": "Yoru / World's Strongest Swordsman",
+      "description": "the black blade Yoru splits ships and icebergs; flawless Armament Haki and hawk-eyed observation",
+      "ultimate": "Kokuto Arahoshi: World Cleaving Slash"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1312,
+    "unlock_level": 4
+  },
+  {
+    "id": 517,
+    "name": "Shanks",
+    "anime": "One Piece",
+    "city": "Red Force Flagship",
+    "world": "Grand Line",
+    "architecture": "a crimson-hulled flagship with a straw-hat cabin shrine and a mural of Roger's crew",
+    "element": "Haki",
+    "element_family": "Cosmic",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 90,
+      "atk": 97,
+      "def": 86,
+      "spd": 84,
+      "tech": 88,
+      "build": 80,
+      "power_level": 88
+    },
+    "signature": {
+      "name": "Conqueror's Haki Mastery",
+      "description": "overwhelming Haoshoku that knocks out crowds, future-sight-blocking Observation and Gryphon's Divine Departure",
+      "ultimate": "Divine Departure: Kamusari"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1360,
+    "unlock_level": 4
+  },
+  {
+    "id": 518,
+    "name": "Edward Newgate (Whitebeard)",
+    "anime": "One Piece",
+    "city": "Moby Dick Whale Deck",
+    "world": "New World",
+    "architecture": "a whale-headed flagship with sixteen division banners and the throne of the World's Strongest Man",
+    "element": "Quake",
+    "element_family": "Earth",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 98,
+      "atk": 99,
+      "def": 84,
+      "spd": 50,
+      "tech": 68,
+      "build": 88,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Gura Gura no Mi",
+      "description": "cracks the air itself, tilts islands with quake bubbles and sinks fleets with the Kaishin tsunami",
+      "ultimate": "Gura Gura: Kaishin World Quake"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1456,
+    "unlock_level": 5
+  },
+  {
+    "id": 519,
+    "name": "Kaido",
+    "anime": "One Piece",
+    "city": "Onigashima Skull Dome",
+    "world": "Wano",
+    "architecture": "a skull-shaped mountain fortress wreathed in flame clouds, sake vats and Beast Pirates' war drums",
+    "element": "Dragon",
+    "element_family": "Beast",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 99,
+      "atk": 98,
+      "def": 96,
+      "spd": 56,
+      "tech": 62,
+      "build": 86,
+      "power_level": 83
+    },
+    "signature": {
+      "name": "Uo Uo no Mi: Azure Dragon",
+      "description": "the Strongest Creature: thunder bagua kanabo, Blast Breath, flame clouds and the Hybrid Drunk Oni form",
+      "ultimate": "Ragnaraku: Divine Thunder Blast"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1432,
+    "unlock_level": 5
+  },
+  {
+    "id": 520,
+    "name": "Charlotte Linlin (Big Mom)",
+    "anime": "One Piece",
+    "city": "Whole Cake Chateau",
+    "world": "Totto Land",
+    "architecture": "a wedding-cake castle of candy towers, living homie furniture and the Tamatebako treasury",
+    "element": "Soul",
+    "element_family": "Shadow",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 98,
+      "atk": 96,
+      "def": 94,
+      "spd": 52,
+      "tech": 80,
+      "build": 84,
+      "power_level": 84
+    },
+    "signature": {
+      "name": "Soru Soru no Mi / Zeus, Prometheus, Napoleon",
+      "description": "steals souls to animate homies; Ikoku Sovereignty shockwaves and the Misery lightning cannon",
+      "ultimate": "Maser Cannon: Misery Full Power"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1408,
+    "unlock_level": 5
+  },
+  {
+    "id": 521,
+    "name": "Marshall D. Teach (Blackbeard)",
+    "anime": "One Piece",
+    "city": "Hachinosu Pirate Island",
+    "world": "Fullalead",
+    "architecture": "a skull-rock pirate haven of taverns, execution platforms and a dark treasury of stolen Devil Fruits",
+    "element": "Dark",
+    "element_family": "Shadow",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 96,
+      "atk": 94,
+      "def": 80,
+      "spd": 58,
+      "tech": 84,
+      "build": 78,
+      "power_level": 82
+    },
+    "signature": {
+      "name": "Yami Yami no Mi / Gura Gura no Mi",
+      "description": "darkness that swallows and nullifies Devil Fruits, Black Hole vacuum, and the stolen quake power",
+      "ultimate": "Kurouzu: Twin Fruit Cataclysm"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1336,
+    "unlock_level": 6
+  },
+  {
+    "id": 522,
+    "name": "Donquixote Doflamingo",
+    "anime": "One Piece",
+    "city": "Dressrosa Royal Palace",
+    "world": "Dressrosa",
+    "architecture": "a flamingo-pink palace atop a Colosseum city, toy-soldier barracks and a string-cage sky",
+    "element": "String",
+    "element_family": "Tech",
+    "role": "Trickster",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 80,
+      "atk": 90,
+      "def": 74,
+      "spd": 86,
+      "tech": 88,
+      "build": 72,
+      "power_level": 82
+    },
+    "signature": {
+      "name": "Ito Ito no Mi / Awakened Strings",
+      "description": "razor strings that slice, puppet enemies with Parasite, Sky Path walking and the Bird Cage dome",
+      "ultimate": "Birdcage: God Thread"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1264,
+    "unlock_level": 6
+  },
+  {
+    "id": 523,
+    "name": "Sir Crocodile",
+    "anime": "One Piece",
+    "city": "Rain Dinners Casino",
+    "world": "Alabasta",
+    "architecture": "a pyramid-shaped desert casino with crocodile pits, banana-gator moat and Baroque Works vaults",
+    "element": "Sand",
+    "element_family": "Earth",
+    "role": "Tactician",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 86,
+      "def": 72,
+      "spd": 66,
+      "tech": 82,
+      "build": 70,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Suna Suna no Mi",
+      "description": "sand logia that desiccates by touch, Desert Spada blades, Sables sandstorm and the golden hook",
+      "ultimate": "Desert La Spada: Ground Death"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 6
+  },
+  {
+    "id": 524,
+    "name": "Charlotte Katakuri",
+    "anime": "One Piece",
+    "city": "Komugi Island Mochi Mill",
+    "world": "Totto Land",
+    "architecture": "a wheat-and-donut mill kingdom of mochi silos and a private tea tower for a scarfed noble",
+    "element": "Mochi",
+    "element_family": "Earth",
+    "role": "Bruiser",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 90,
+      "atk": 94,
+      "def": 86,
+      "spd": 72,
+      "tech": 92,
+      "build": 78,
+      "power_level": 85
+    },
+    "signature": {
+      "name": "Mochi Mochi no Mi / Future Sight",
+      "description": "sees seconds ahead with Observation Haki; Mochi trident, Power Mochi fists and Zan Giri Mochi",
+      "ultimate": "Zan Giri Mochi: Future Sight Slash"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1336,
+    "unlock_level": 7
+  },
+  {
+    "id": 525,
+    "name": "Sakazuki (Akainu)",
+    "anime": "One Piece",
+    "city": "Marineford New Headquarters",
+    "world": "New World",
+    "architecture": "a fortress of magma-red battlements, justice banners and a molten dog-head cannon gate",
+    "element": "Magma",
+    "element_family": "Fire",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 92,
+      "atk": 98,
+      "def": 88,
+      "spd": 60,
+      "tech": 70,
+      "build": 80,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Magu Magu no Mi",
+      "description": "magma logia that burns even fire, Dai Funka fists, Ryusei Kazan meteor rain and Inugami Guren",
+      "ultimate": "Ryusei Kazan: Meteor Volcano"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1360,
+    "unlock_level": 7
+  },
+  {
+    "id": 526,
+    "name": "Kuzan (Aokiji)",
+    "anime": "One Piece",
+    "city": "Frozen Sea Bicycle Bridge",
+    "world": "Grand Line",
+    "architecture": "an endless ice bridge across an ocean, an ice-sculpture garden and a lazy admiral's sleeping mask",
+    "element": "Ice",
+    "element_family": "Frost",
+    "role": "Tactician",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 84,
+      "atk": 88,
+      "def": 80,
+      "spd": 64,
+      "tech": 86,
+      "build": 72,
+      "power_level": 79
+    },
+    "signature": {
+      "name": "Hie Hie no Mi",
+      "description": "ice logia that freezes oceans, Ice Time petrification, Ice Saber and the Ice Age tidal freeze",
+      "ultimate": "Ice Age: Frozen Ocean"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1264,
+    "unlock_level": 7
+  },
+  {
+    "id": 527,
+    "name": "Borsalino (Kizaru)",
+    "anime": "One Piece",
+    "city": "Marine Light Cannon Spire",
+    "world": "Marineford",
+    "architecture": "a golden spire of mirrored lenses and a light-cannon that flashes across the archipelago",
+    "element": "Light",
+    "element_family": "Light",
+    "role": "Marksman",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 78,
+      "atk": 94,
+      "def": 74,
+      "spd": 99,
+      "tech": 80,
+      "build": 66,
+      "power_level": 82
+    },
+    "signature": {
+      "name": "Pika Pika no Mi",
+      "description": "light-speed body, Yasakani no Magatama shard barrage, Ama no Murakumo light sword and light kicks",
+      "ultimate": "Yasakani no Magatama: Light Speed Kick"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1192,
+    "unlock_level": 8
+  },
+  {
+    "id": 528,
+    "name": "Monkey D. Garp",
+    "anime": "One Piece",
+    "city": "Foosha Village Hero Hill",
+    "world": "East Blue",
+    "architecture": "a windmill-village hill with a cannonball-tossing training yard and a hero's stone fist",
+    "element": "Haki",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 94,
+      "atk": 96,
+      "def": 88,
+      "spd": 66,
+      "tech": 64,
+      "build": 78,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Fist of Love / Galaxy Impact",
+      "description": "legendary Marine hero whose Haki-infused fists throw cannonballs and crater islands",
+      "ultimate": "Galaxy Impact: Fist of Love"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1336,
+    "unlock_level": 8
+  },
+  {
+    "id": 529,
+    "name": "Sengoku",
+    "anime": "One Piece",
+    "city": "Marineford Buddha Terrace",
+    "world": "Marineford",
+    "architecture": "a golden terrace with a gilded Buddha statue, judge's gavel and a goat-tended garden",
+    "element": "Holy",
+    "element_family": "Light",
+    "role": "Guardian",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 88,
+      "atk": 86,
+      "def": 90,
+      "spd": 54,
+      "tech": 90,
+      "build": 80,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Hito Hito no Mi: Model Daibutsu",
+      "description": "transforms into a golden Buddha whose palm strikes fire shockwaves; the Marines' master strategist",
+      "ultimate": "Daibutsu: Shockwave Palm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1360,
+    "unlock_level": 8
+  },
+  {
+    "id": 530,
+    "name": "Enel",
+    "anime": "One Piece",
+    "city": "Skypiea Shrine of Upper Yard",
+    "world": "Skypiea",
+    "architecture": "a cloud island temple of golden bells, Maxim ark and lightning-scarred pillars",
+    "element": "Lightning",
+    "element_family": "Lightning",
+    "role": "Caster",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 70,
+      "atk": 96,
+      "def": 60,
+      "spd": 90,
+      "tech": 88,
+      "build": 66,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Goro Goro no Mi",
+      "description": "lightning logia with Mantra island-wide sensing, El Thor pillars and the Raigo thundercloud",
+      "ultimate": "Raigo: 200 Million Volt Amaru"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1192,
+    "unlock_level": 9
+  },
+  {
+    "id": 531,
+    "name": "Rob Lucci",
+    "anime": "One Piece",
+    "city": "Enies Lobby Tower of Justice",
+    "world": "Enies Lobby",
+    "architecture": "a waterfall-ringed justice tower with locked gates, agent training halls and a leopard perch",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 90,
+      "def": 74,
+      "spd": 90,
+      "tech": 72,
+      "build": 66,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Rokushiki / Neko Neko no Mi: Leopard",
+      "description": "Six Powers master: Shigan, Rankyaku, Soru, plus Awakened leopard form and the Rokuogan shockwave",
+      "ultimate": "Rokuogan: Awakened Leopard"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 9
+  },
+  {
+    "id": 532,
+    "name": "Yamato",
+    "anime": "One Piece",
+    "city": "Onigashima Ice Cavern",
+    "world": "Wano",
+    "architecture": "a frozen cavern beneath the skull dome with Oden's journal shrine and a chained kanabo pedestal",
+    "element": "Ice",
+    "element_family": "Frost",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 86,
+      "atk": 88,
+      "def": 80,
+      "spd": 74,
+      "tech": 64,
+      "build": 70,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Inu Inu no Mi: Okuchi no Makami",
+      "description": "the wolf-god fruit with Ice Fang breath, Conqueror's Haki-infused Thunder Bagua and Namuji Glacier Fang",
+      "ultimate": "Namuji Hyoga: Glacier Fang"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 9
+  },
+  {
+    "id": 533,
+    "name": "Marco the Phoenix",
+    "anime": "One Piece",
+    "city": "Sphinx Island Village",
+    "world": "New World",
+    "architecture": "a sphinx-guarded village of blue-flame lanterns, a phoenix roost and a doctor's clinic",
+    "element": "Flame",
+    "element_family": "Fire",
+    "role": "Support",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 86,
+      "atk": 80,
+      "def": 84,
+      "spd": 80,
+      "tech": 84,
+      "build": 70,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Tori Tori no Mi: Phoenix",
+      "description": "blue regenerating flames heal self and allies, talon strikes and the Bluebird phoenix dive",
+      "ultimate": "Bluebird: Phoenix Brand"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 10
+  },
+  {
+    "id": 534,
+    "name": "Silvers Rayleigh",
+    "anime": "One Piece",
+    "city": "Sabaody Coating Workshop",
+    "world": "Sabaody Archipelago",
+    "architecture": "a bubble-tree archipelago workshop of coated hulls, a gambling den and the Roger Pirates' memorial",
+    "element": "Haki",
+    "element_family": "Cosmic",
+    "role": "Tactician",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 82,
+      "atk": 92,
+      "def": 84,
+      "spd": 78,
+      "tech": 96,
+      "build": 76,
+      "power_level": 85
+    },
+    "signature": {
+      "name": "Dark King's Haki Mastery",
+      "description": "the Dark King: perfect Armament ryuo that repels from within, Conqueror's bursts and pinpoint swordplay",
+      "ultimate": "Dark King: Ryuo Internal Destruction"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1312,
+    "unlock_level": 10
+  },
+  {
+    "id": 535,
+    "name": "Gol D. Roger",
+    "anime": "One Piece",
+    "city": "Laugh Tale Final Island",
+    "world": "Laugh Tale",
+    "architecture": "the last island of laughing stone monuments, an ancient treasure vault and the poneglyph of the century",
+    "element": "Haki",
+    "element_family": "Cosmic",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 94,
+      "atk": 99,
+      "def": 88,
+      "spd": 80,
+      "tech": 84,
+      "build": 82,
+      "power_level": 88
+    },
+    "signature": {
+      "name": "Pirate King's Divine Departure",
+      "description": "the Pirate King with Haki that clashes skies apart; Ace's sword Divine Departure and Voice of All Things",
+      "ultimate": "Kamusari: Pirate King's Departure"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1384,
+    "unlock_level": 10
+  },
+  {
+    "id": 536,
+    "name": "Kozuki Oden",
+    "anime": "One Piece",
+    "city": "Kuri Castle of Wano",
+    "world": "Wano",
+    "architecture": "a mountain castle over a lawless region, oden pots steaming and the two swords Enma and Ame no Habakiri",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Bruiser",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 92,
+      "atk": 96,
+      "def": 82,
+      "spd": 74,
+      "tech": 70,
+      "build": 74,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Oden Two-Sword Style",
+      "description": "Togen Totsuka: the only slash to ever scar Kaido, Paradise Totsuka and a boiling-oil endurance legend",
+      "ultimate": "Togen Totsuka: Paradise Slash"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1288,
+    "unlock_level": 11
+  },
+  {
+    "id": 537,
+    "name": "Smoker",
+    "anime": "One Piece",
+    "city": "G-5 Marine Base",
+    "world": "New World",
+    "architecture": "a smog-shrouded Marine base of cigar-shaped chimneys, seastone jitte racks and a motorbike hangar",
+    "element": "Smoke",
+    "element_family": "Wind",
+    "role": "Guardian",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 76,
+      "atk": 74,
+      "def": 72,
+      "spd": 70,
+      "tech": 72,
+      "build": 66,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Moku Moku no Mi",
+      "description": "smoke logia capture with White Blow, White Snake and the seastone-tipped Nanashaku Jitte",
+      "ultimate": "White Launcher: Seastone Jitte"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1192,
+    "unlock_level": 11
+  },
+  {
+    "id": 538,
+    "name": "Bartholomew Kuma",
+    "anime": "One Piece",
+    "city": "Sorbet Kingdom Chapel",
+    "world": "Sorbet Kingdom",
+    "architecture": "a snowy chapel of a gentle giant, paw-print pews and the Buccaneer memorial",
+    "element": "Paw",
+    "element_family": "Cosmic",
+    "role": "Guardian",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 94,
+      "atk": 82,
+      "def": 92,
+      "spd": 60,
+      "tech": 76,
+      "build": 84,
+      "power_level": 81
+    },
+    "signature": {
+      "name": "Nikyu Nikyu no Mi / Pacifista",
+      "description": "paw pads that repel anything: Pad Ho pressure cannon, Ursus Shock and teleporting enemies across seas",
+      "ultimate": "Ursus Shock: Compressed Air Paw"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1408,
+    "unlock_level": 11
+  },
+  {
+    "id": 539,
+    "name": "Magellan",
+    "anime": "One Piece",
+    "city": "Impel Down Level Six",
+    "world": "Impel Down",
+    "architecture": "an undersea prison of poison moats, wolf units and the warden's toilet-throne office",
+    "element": "Poison",
+    "element_family": "Blood",
+    "role": "Controller",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 84,
+      "atk": 88,
+      "def": 86,
+      "spd": 48,
+      "tech": 80,
+      "build": 72,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Doku Doku no Mi",
+      "description": "poison hydra, Venom Demon Hell's Judgement and Kinjite's sea of death; a body of poison itself",
+      "ultimate": "Kinjite: Venom Demon Hell's Judgement"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1264,
+    "unlock_level": 12
+  },
+  {
+    "id": 540,
+    "name": "Issho (Fujitora)",
+    "anime": "One Piece",
+    "city": "Marine Gravity Meditation Deck",
+    "world": "Marineford",
+    "architecture": "a blind admiral's stone garden of floating boulders, a meteor scar and a wooden sword rack",
+    "element": "Gravity",
+    "element_family": "Cosmic",
+    "role": "Tactician",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 84,
+      "atk": 90,
+      "def": 84,
+      "spd": 60,
+      "tech": 88,
+      "build": 74,
+      "power_level": 80
+    },
+    "signature": {
+      "name": "Zushi Zushi no Mi",
+      "description": "gravity blade that pulls meteors from orbit, Gravito Moko crush and gravity dome protection",
+      "ultimate": "Moko Gyoku: Meteor Crash"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1288,
+    "unlock_level": 12
+  },
+  {
+    "id": 541,
+    "name": "David Martinez",
+    "anime": "Cyberpunk: Edgerunners",
+    "city": "Night City Megabuilding H4",
+    "world": "Night City",
+    "architecture": "a neon-scarred megabuilding of stacked apartments, chrome clinics and Arasaka billboards",
+    "element": "Tech",
+    "element_family": "Tech",
+    "role": "Berserker",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 80,
+      "atk": 88,
+      "def": 66,
+      "spd": 90,
+      "tech": 54,
+      "build": 66,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Sandevistan / Cyberpsychosis",
+      "description": "military Sandevistan time-dilation slides, chrome fists and a cyberpsychotic rampage that ignores pain",
+      "ultimate": "Sandevistan Overdrive: Chrome Rampage"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 1
+  },
+  {
+    "id": 542,
+    "name": "Lucy",
+    "anime": "Cyberpunk: Edgerunners",
+    "city": "Moon-View Rooftop",
+    "world": "Night City",
+    "architecture": "a rooftop of holo-moon projections, netrunner chairs and a monowire hum",
+    "element": "Mind",
+    "element_family": "Mind",
+    "role": "Assassin",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 56,
+      "atk": 80,
+      "def": 44,
+      "spd": 84,
+      "tech": 90,
+      "build": 52,
+      "power_level": 68
+    },
+    "signature": {
+      "name": "Monowire / Netrunning",
+      "description": "razor-monowire slices and neural hacks that stun, blind and short enemy cyberware",
+      "ultimate": "Quickhack: Cyberware Meltdown"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1024,
+    "unlock_level": 1
+  },
+  {
+    "id": 543,
+    "name": "Rebecca",
+    "anime": "Cyberpunk: Edgerunners",
+    "city": "Afterlife Bar Back Alley",
+    "world": "Night City",
+    "architecture": "a graffiti alley behind a merc bar with shotgun racks and a pink motorbike",
+    "element": "Gun",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 54,
+      "atk": 84,
+      "def": 40,
+      "spd": 80,
+      "tech": 52,
+      "build": 44,
+      "power_level": 59
+    },
+    "signature": {
+      "name": "Twin Shotguns / Reflex Boosts",
+      "description": "tiny frame, giant Guts shotguns; leaps and blasts point-blank with mantis-fast reflexes",
+      "ultimate": "Guts Overkill: Shotgun Spin"
+    },
+    "brick_cost": 400,
+    "city_pieces": 928,
+    "unlock_level": 1
+  },
+  {
+    "id": 544,
+    "name": "Maine",
+    "anime": "Cyberpunk: Edgerunners",
+    "city": "Edgerunner Garage",
+    "world": "Night City",
+    "architecture": "a scrap-garage of chrome limbs, a gilded helmet and ammo crates",
+    "element": "Steel",
+    "element_family": "Tech",
+    "role": "Bruiser",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 88,
+      "atk": 82,
+      "def": 80,
+      "spd": 52,
+      "tech": 50,
+      "build": 74,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Full Chrome Body",
+      "description": "heavy Gorilla Arms, subdermal armor and a cyberpsycho meltdown that flattens crews",
+      "ultimate": "Chrome Meltdown: Gorilla Slam"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1288,
+    "unlock_level": 2
+  },
+  {
+    "id": 545,
+    "name": "Adam Smasher",
+    "anime": "Cyberpunk: Edgerunners",
+    "city": "Arasaka Tower Summit",
+    "world": "Night City",
+    "architecture": "a black corporate spire's rooftop of gunship pads and a full-borg trophy hall",
+    "element": "Steel",
+    "element_family": "Tech",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 98,
+      "atk": 96,
+      "def": 98,
+      "spd": 60,
+      "tech": 58,
+      "build": 90,
+      "power_level": 83
+    },
+    "signature": {
+      "name": "Full-Borg Chassis",
+      "description": "armored borg juggernaut with arm cannons, Sandevistan counter and shoulder rockets",
+      "ultimate": "Sandevistan Slaughter: Rocket Barrage"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1480,
+    "unlock_level": 2
+  },
+  {
+    "id": 546,
+    "name": "Reg",
+    "anime": "Made in Abyss",
+    "city": "Orth Cliff Town",
+    "world": "Orth",
+    "architecture": "a town clinging to the rim of a giant pit, bell-tower orphanage and relic warehouses",
+    "element": "Beam",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 86,
+      "def": 82,
+      "spd": 72,
+      "tech": 62,
+      "build": 64,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Incinerator / Extending Arms",
+      "description": "robot boy with grappling arms and the Incinerator beam that reshapes the abyss but knocks him out",
+      "ultimate": "Incinerator: Full Charge"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 2
+  },
+  {
+    "id": 547,
+    "name": "Nanachi",
+    "anime": "Made in Abyss",
+    "city": "Idofront Hideout",
+    "world": "Abyss Layer 5",
+    "architecture": "a nest of fluffy blankets, alchemical herb racks and a sea of blooming cradle flowers",
+    "element": "Curse",
+    "element_family": "Cosmic",
+    "role": "Support",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 58,
+      "atk": 62,
+      "def": 54,
+      "spd": 74,
+      "tech": 94,
+      "build": 56,
+      "power_level": 66
+    },
+    "signature": {
+      "name": "Curse Sight / Field Medicine",
+      "description": "sees the abyss's curse as flow, heals and guides allies, throws venom-tipped needles",
+      "ultimate": "Curse Sight: Force Field Guide"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1072,
+    "unlock_level": 2
+  },
+  {
+    "id": 548,
+    "name": "Riko",
+    "anime": "Made in Abyss",
+    "city": "Belchero Orphanage",
+    "world": "Orth",
+    "architecture": "a bell-domed orphanage of cave-raider whistles, relic shelves and maps of the abyss",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Tactician",
+    "rarity": "Rare",
+    "stats": {
+      "hp": 50,
+      "atk": 52,
+      "def": 44,
+      "spd": 64,
+      "tech": 82,
+      "build": 46,
+      "power_level": 56
+    },
+    "signature": {
+      "name": "Relic Toolkit / Blaze Reap",
+      "description": "adventurer's arsenal: Blaze Reap pickaxe, Star Compass and a bottomless survival grit",
+      "ultimate": "Blaze Reap: Relic Strike"
+    },
+    "brick_cost": 250,
+    "city_pieces": 952,
+    "unlock_level": 3
+  },
+  {
+    "id": 549,
+    "name": "Bondrewd",
+    "anime": "Made in Abyss",
+    "city": "Idofront Fortress",
+    "world": "Abyss Layer 5",
+    "architecture": "a stark research fortress of praying hands, cartridge tanks and Sparagmos altars",
+    "element": "Curse",
+    "element_family": "Cosmic",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 90,
+      "atk": 94,
+      "def": 88,
+      "spd": 70,
+      "tech": 96,
+      "build": 80,
+      "power_level": 86
+    },
+    "signature": {
+      "name": "Sparagmos / Zoaholic",
+      "description": "the Sovereign of Dawn: cutting light relic Sparagmos, cartridge-fueled curse immunity and body-swap rebirth",
+      "ultimate": "Sparagmos: Blessing of Dawn"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1360,
+    "unlock_level": 3
+  },
+  {
+    "id": 550,
+    "name": "Rudeus Greyrat",
+    "anime": "Mushoku Tensei",
+    "city": "Buena Village Manor",
+    "world": "Asura Kingdom",
+    "architecture": "a countryside manor of magic tutoring rooms, a cannon-shaped mana lab and a demon-eye workshop",
+    "element": "Magic",
+    "element_family": "Cosmic",
+    "role": "Caster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 90,
+      "def": 58,
+      "spd": 66,
+      "tech": 96,
+      "build": 64,
+      "power_level": 73
+    },
+    "signature": {
+      "name": "Voiceless Incantation / Stone Cannon",
+      "description": "chantless quick-cast water and earth magic, Demon Eye of Foresight, and the mud-cannon Stone Cannon",
+      "ultimate": "Cumulonimbus: Full Mana Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 3
+  },
+  {
+    "id": 551,
+    "name": "Eris Boreas Greyrat",
+    "anime": "Mushoku Tensei",
+    "city": "Boreas Manor Sword Yard",
+    "world": "Asura Kingdom",
+    "architecture": "a red-lion noble manor with a sword-training yard, torn targets and a sword-king banner",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Berserker",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 74,
+      "atk": 90,
+      "def": 54,
+      "spd": 82,
+      "tech": 40,
+      "build": 50,
+      "power_level": 65
+    },
+    "signature": {
+      "name": "Sword God Style",
+      "description": "light-fast Sword God strikes and a fury that turns every duel into an all-out charge",
+      "ultimate": "Sword God Style: Longsword of Light"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1000,
+    "unlock_level": 3
+  },
+  {
+    "id": 552,
+    "name": "Roxy Migurdia",
+    "anime": "Mushoku Tensei",
+    "city": "Migurd Village Marsh",
+    "world": "Demon Continent",
+    "architecture": "a marsh village of blue-haired telepaths, mana tutor huts and a staff-topped teacher's tower",
+    "element": "Water",
+    "element_family": "Water",
+    "role": "Caster",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 56,
+      "atk": 80,
+      "def": 50,
+      "spd": 64,
+      "tech": 92,
+      "build": 58,
+      "power_level": 67
+    },
+    "signature": {
+      "name": "Water Saint Magic",
+      "description": "water and ice magic with Icicle Field, Water Fall and a saint's mastery of area spells",
+      "ultimate": "Water Saint: Icicle Field"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1096,
+    "unlock_level": 4
+  },
+  {
+    "id": 553,
+    "name": "Orsted",
+    "anime": "Mushoku Tensei",
+    "city": "Dragon God Cave",
+    "world": "Northern Territories",
+    "architecture": "a hidden mountain cave of dragon runes, a loop-log library and a cursed white-haired god's throne",
+    "element": "Dragon",
+    "element_family": "Cosmic",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 98,
+      "atk": 98,
+      "def": 92,
+      "spd": 82,
+      "tech": 98,
+      "build": 86,
+      "power_level": 92
+    },
+    "signature": {
+      "name": "Dragon God's Loop Curse",
+      "description": "master of all sword and magic styles across a hundred looping lives, with a curse that scares all",
+      "ultimate": "Dragon God: Secret Art Combo"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1432,
+    "unlock_level": 4
+  },
+  {
+    "id": 554,
+    "name": "Akira Fudo (Devilman)",
+    "anime": "Devilman Crybaby",
+    "city": "Makimura Rooftop Track",
+    "world": "Tokyo",
+    "architecture": "a suburban rooftop of running tracks, a bloody moon and demon wings casting shadows",
+    "element": "Demon",
+    "element_family": "Blood",
+    "role": "Berserker",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 88,
+      "atk": 94,
+      "def": 72,
+      "spd": 86,
+      "tech": 44,
+      "build": 66,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Devilman Transformation",
+      "description": "fused with Amon: winged demon speed, claws that shred, and a heart that keeps him human",
+      "ultimate": "Devil Wing: Amon Unleashed"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1192,
+    "unlock_level": 4
+  },
+  {
+    "id": 555,
+    "name": "Ryo Asuka (Satan)",
+    "anime": "Devilman Crybaby",
+    "city": "Antarctic Fallen Throne",
+    "world": "Earth's End",
+    "architecture": "a white fallen-angel cathedral of ice, six wings of light and a ruined world",
+    "element": "Holy",
+    "element_family": "Light",
+    "role": "Caster",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 76,
+      "atk": 98,
+      "def": 76,
+      "spd": 80,
+      "tech": 98,
+      "build": 78,
+      "power_level": 84
+    },
+    "signature": {
+      "name": "Satan's Light",
+      "description": "the fallen angel with beams of divine annihilation, hermaphroditic angel form and world-ending judgement",
+      "ultimate": "Satan's Judgement: Six-Winged Light"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1336,
+    "unlock_level": 5
+  },
+  {
+    "id": 556,
+    "name": "Caiman",
+    "anime": "Dorohedoro",
+    "city": "Hole Gyoza Shop",
+    "world": "Hole",
+    "architecture": "a smog-choked slum of gyoza stalls, rusty magic doors and a bat-wielding lizard head",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 90,
+      "atk": 84,
+      "def": 84,
+      "spd": 62,
+      "tech": 48,
+      "build": 70,
+      "power_level": 73
+    },
+    "signature": {
+      "name": "Lizard Head / Magic Immunity",
+      "description": "bites sorcerers' heads to find the man inside; knife duel skills and immunity to magic",
+      "ultimate": "Head Bite: Inner Man's Verdict"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 5
+  },
+  {
+    "id": 557,
+    "name": "Nikaido",
+    "anime": "Dorohedoro",
+    "city": "Hungry Bug Restaurant",
+    "world": "Hole",
+    "architecture": "a tiny restaurant of steaming gyoza pans, boxing gloves and a time-magic seal",
+    "element": "Time",
+    "element_family": "Cosmic",
+    "role": "Brawler",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 84,
+      "def": 66,
+      "spd": 84,
+      "tech": 72,
+      "build": 60,
+      "power_level": 73
+    },
+    "signature": {
+      "name": "Time Magic / Martial Arts",
+      "description": "brutal martial artist who bends time to rewind and rewrite a fight",
+      "ultimate": "Time Rewind: Devil Strike"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 5
+  },
+  {
+    "id": 558,
+    "name": "En",
+    "anime": "Dorohedoro",
+    "city": "En Family Mansion",
+    "world": "Sorcerers' World",
+    "architecture": "a mushroom-grown mansion of fungal towers, cross-eyed guards and a pie-shop cellar",
+    "element": "Nature",
+    "element_family": "Earth",
+    "role": "Summoner",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 86,
+      "def": 72,
+      "spd": 52,
+      "tech": 90,
+      "build": 74,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Mushroom Magic",
+      "description": "turns anything into mushrooms, spawns fungal soldiers and giant spore explosions",
+      "ultimate": "Mushroom Kingdom: Spore Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1288,
+    "unlock_level": 6
+  },
+  {
+    "id": 559,
+    "name": "Shin",
+    "anime": "Dorohedoro",
+    "city": "Cleaners' Hammer Hall",
+    "world": "Sorcerers' World",
+    "architecture": "a butcher-like hall of heart-shaped masks, hammers on hooks and a bagged-head trophy wall",
+    "element": "Blood",
+    "element_family": "Blood",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 92,
+      "def": 66,
+      "spd": 80,
+      "tech": 58,
+      "build": 60,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Bisection Magic",
+      "description": "cuts bodies into perfect slices with magic smoke and a hammer finishing blow",
+      "ultimate": "Hammer Time: Total Bisection"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 6
+  },
+  {
+    "id": 560,
+    "name": "Saichi Sugimoto",
+    "anime": "Golden Kamuy",
+    "city": "Hokkaido Frozen Outpost",
+    "world": "Hokkaido",
+    "architecture": "a snow-bound army outpost of bayonet racks, bear hides and a gold-map campfire",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 90,
+      "atk": 82,
+      "def": 78,
+      "spd": 66,
+      "tech": 52,
+      "build": 62,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Immortal Sugimoto",
+      "description": "a soldier who refuses to die: bayonet rushes, bear-wrestling grit and instant recovery",
+      "ultimate": "Immortal Charge: Bayonet Frenzy"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 6
+  },
+  {
+    "id": 561,
+    "name": "Asirpa",
+    "anime": "Golden Kamuy",
+    "city": "Ainu Kotan Village",
+    "world": "Hokkaido",
+    "architecture": "a riverside Ainu village of thatched cise homes, hunting bows and a smoked-fish kitchen",
+    "element": "Nature",
+    "element_family": "Earth",
+    "role": "Marksman",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 52,
+      "atk": 68,
+      "def": 46,
+      "spd": 72,
+      "tech": 92,
+      "build": 50,
+      "power_level": 63
+    },
+    "signature": {
+      "name": "Poison Arrows / Ainu Hunting",
+      "description": "surutku-poisoned arrows, animal traps and a hunter's knowledge of every terrain",
+      "ultimate": "Surutku Volley: Hunter's Snare"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1000,
+    "unlock_level": 7
+  },
+  {
+    "id": 562,
+    "name": "Hyakunosuke Ogata",
+    "anime": "Golden Kamuy",
+    "city": "Abandoned Watchtower",
+    "world": "Hokkaido",
+    "architecture": "a frost-crusted hilltop tower with a sniper's blind and a lone cigarette glow",
+    "element": "Gun",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 58,
+      "atk": 90,
+      "def": 50,
+      "spd": 72,
+      "tech": 88,
+      "build": 54,
+      "power_level": 69
+    },
+    "signature": {
+      "name": "Superior Private Sniper",
+      "description": "emotionless dead-eye shooting through blizzards, unseen angles and cold ambushes",
+      "ultimate": "Sniper's Eye: Killing Shot"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1048,
+    "unlock_level": 7
+  },
+  {
+    "id": 563,
+    "name": "Gabimaru the Hollow",
+    "anime": "Hell's Paradise",
+    "city": "Iwagakure Village",
+    "world": "Iwagakure",
+    "architecture": "a stone ninja village of fire-forge caves, execution pits and a garden he built for his wife",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 90,
+      "def": 68,
+      "spd": 92,
+      "tech": 66,
+      "build": 60,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Ninpo: Ascetic Blaze",
+      "description": "iron-hard body, ninpo fire techniques and Tao-enhanced blazing strikes",
+      "ultimate": "Ascetic Blaze: Ninpo Karyu"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 7
+  },
+  {
+    "id": 564,
+    "name": "Yamada Asaemon Sagiri",
+    "anime": "Hell's Paradise",
+    "city": "Yamada Clan Execution Grounds",
+    "world": "Edo",
+    "architecture": "a solemn execution yard of test-cutting posts, prayer rooms and a swordsmith's forge",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Tactician",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 60,
+      "atk": 80,
+      "def": 56,
+      "spd": 76,
+      "tech": 86,
+      "build": 54,
+      "power_level": 69
+    },
+    "signature": {
+      "name": "Executioner's Sword / Tao",
+      "description": "flawless test-cutting draw-strikes, Tao sensing and breath-control counters",
+      "ultimate": "Tao Draw: Executioner's Cut"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1048,
+    "unlock_level": 8
+  },
+  {
+    "id": 565,
+    "name": "Yamada Asaemon Shion",
+    "anime": "Hell's Paradise",
+    "city": "Blind Master's Dojo",
+    "world": "Edo",
+    "architecture": "a quiet dojo of wind-bells and a blind master's sensing garden",
+    "element": "Spirit",
+    "element_family": "Cosmic",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 90,
+      "def": 76,
+      "spd": 72,
+      "tech": 84,
+      "build": 66,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Blind Tao Mastery",
+      "description": "a blind executioner who reads Tao flows and cuts before seeing; incomparable defense",
+      "ultimate": "Tao Perfection: Void Cut"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 8
+  },
+  {
+    "id": 566,
+    "name": "Mash Burnedead",
+    "anime": "Mashle: Magic and Muscles",
+    "city": "Easton Magic Academy Muscle Gym",
+    "world": "Magic Realm",
+    "architecture": "a wizard academy dormitory converted into a cream-puff bakery and a dumbbell gym",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 90,
+      "atk": 94,
+      "def": 84,
+      "spd": 74,
+      "tech": 30,
+      "build": 66,
+      "power_level": 73
+    },
+    "signature": {
+      "name": "Pure Muscle",
+      "description": "no magic, all muscle: punches that rip through spells, cream-puff-fueled toughness",
+      "ultimate": "Magic Muscle: Ten Thousand Punch"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 8
+  },
+  {
+    "id": 567,
+    "name": "Lance Crown",
+    "anime": "Mashle: Magic and Muscles",
+    "city": "Crown Gravity Dormitory",
+    "world": "Magic Realm",
+    "architecture": "a floating dormitory of gravity-anchored towers and a sister-portrait shrine",
+    "element": "Gravity",
+    "element_family": "Cosmic",
+    "role": "Controller",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 62,
+      "atk": 80,
+      "def": 58,
+      "spd": 70,
+      "tech": 90,
+      "build": 60,
+      "power_level": 70
+    },
+    "signature": {
+      "name": "Gravity Magic: Gravioll",
+      "description": "crushes and pins enemies with gravity fields, floats and slams debris",
+      "ultimate": "Gravioll Secondth: Absolute Crush"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1120,
+    "unlock_level": 9
+  },
+  {
+    "id": 568,
+    "name": "Rayne Ames",
+    "anime": "Mashle: Magic and Muscles",
+    "city": "Divine Visionary Sword Hall",
+    "world": "Magic Realm",
+    "architecture": "a white-marble sword hall of floating blades and a stern brother's training square",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 72,
+      "atk": 92,
+      "def": 66,
+      "spd": 88,
+      "tech": 84,
+      "build": 62,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Sword Magic: Sword Master",
+      "description": "conjures a hundred flying swords and cuts with a divine visionary's speed",
+      "ultimate": "Sword Master Thirdth: Hundred Blade Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 9
+  },
+  {
+    "id": 569,
+    "name": "Kafka Hibino (Kaiju No. 8)",
+    "anime": "Kaiju No. 8",
+    "city": "Defense Force Third Division HQ",
+    "world": "Tachikawa",
+    "architecture": "a hangar-fortress of kaiju-cleanup trucks, numbered-weapon vaults and an armored parade ground",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Bruiser",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 94,
+      "atk": 96,
+      "def": 84,
+      "spd": 74,
+      "tech": 50,
+      "build": 68,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Kaiju No. 8 Transformation",
+      "description": "transforms into a humanoid kaiju with earth-shaking punches, regeneration and kaiju-sense",
+      "ultimate": "Kaiju No. 8: Full Release"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1216,
+    "unlock_level": 9
+  },
+  {
+    "id": 570,
+    "name": "Kikoru Shinomiya",
+    "anime": "Kaiju No. 8",
+    "city": "Shinomiya Training Grounds",
+    "world": "Tachikawa",
+    "architecture": "a prestigious training ground of axe targets, elite barracks and a family crest gate",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 70,
+      "atk": 88,
+      "def": 62,
+      "spd": 92,
+      "tech": 72,
+      "build": 58,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Numbered Weapon Axe / 96% Unleash",
+      "description": "elite cadet with an oversized combat axe and near-perfect suit unleash for blur-fast strikes",
+      "ultimate": "Numbers 4 Axe: 96% Unleash"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 10
+  },
+  {
+    "id": 571,
+    "name": "Mina Ashiro",
+    "anime": "Kaiju No. 8",
+    "city": "Third Division Command Tower",
+    "world": "Tachikawa",
+    "architecture": "a command tower with a giant anti-kaiju cannon and a black-cat lounge",
+    "element": "Gun",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 66,
+      "atk": 96,
+      "def": 58,
+      "spd": 68,
+      "tech": 84,
+      "build": 62,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Anti-Kaiju Long Cannon",
+      "description": "one-shot kaiju killer whose long cannon obliterates anything downrange at 96% unleash",
+      "ultimate": "Long Cannon: 96% Kill Shot"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 10
+  },
+  {
+    "id": 572,
+    "name": "Soshiro Hoshina",
+    "anime": "Kaiju No. 8",
+    "city": "Hoshina Clan Blade Shrine",
+    "world": "Tachikawa",
+    "architecture": "a family dojo of anti-kaiju blades, cleaning rituals and a sarcastic vice-captain's tea corner",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 72,
+      "atk": 92,
+      "def": 64,
+      "spd": 94,
+      "tech": 78,
+      "build": 60,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Hoshina-style Dual Blades",
+      "description": "dual-blade combat of thousand-slash speed; the strongest close-range fighter in the force",
+      "ultimate": "Hoshina Style: Kaiju Cleaver Barrage"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 10
+  },
+  {
+    "id": 573,
+    "name": "Andy",
+    "anime": "Undead Unluck",
+    "city": "Union Roundtable Hall",
+    "world": "Union HQ",
+    "architecture": "a grand roundtable hall of artifact vaults, a regenerating man's bar and a bullet-hole ceiling",
+    "element": "Blood",
+    "element_family": "Blood",
+    "role": "Bruiser",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 99,
+      "atk": 88,
+      "def": 86,
+      "spd": 78,
+      "tech": 60,
+      "build": 68,
+      "power_level": 80
+    },
+    "signature": {
+      "name": "Undead",
+      "description": "cannot die: uses blood as blades, bullets and jet propulsion; regenerates from anything",
+      "ultimate": "Undead: Fire Blood Bullet"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1216,
+    "unlock_level": 11
+  },
+  {
+    "id": 574,
+    "name": "Fuuko Izumo",
+    "anime": "Undead Unluck",
+    "city": "Unluck Manor Rooftop",
+    "world": "Nagasaki",
+    "architecture": "a rooftop of a girl who brings bad luck, meteor-marks and a shojo manga shelf",
+    "element": "Luck",
+    "element_family": "Cosmic",
+    "role": "Trickster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 60,
+      "atk": 78,
+      "def": 54,
+      "spd": 72,
+      "tech": 92,
+      "build": 58,
+      "power_level": 69
+    },
+    "signature": {
+      "name": "Unluck",
+      "description": "anyone who touches her suffers catastrophic bad luck: falling planes, lightning and meteors",
+      "ultimate": "Unluck: Meteor Misfortune"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 11
+  },
+  {
+    "id": 575,
+    "name": "Ken Takakura (Okarun)",
+    "anime": "Dandadan",
+    "city": "Turbo Granny's Tunnel",
+    "world": "Kanto",
+    "architecture": "a cursed tunnel of racing lights, a shrine of stolen cursed objects and an occult club room",
+    "element": "Speed",
+    "element_family": "Shadow",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 70,
+      "atk": 86,
+      "def": 62,
+      "spd": 98,
+      "tech": 58,
+      "build": 58,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Turbo Granny's Curse",
+      "description": "channels the curse: blistering speed, spectral tail swipes and hyper-mobility",
+      "ultimate": "Turbo Curse: Full Sprint Slam"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 11
+  },
+  {
+    "id": 576,
+    "name": "Momo Ayase",
+    "anime": "Dandadan",
+    "city": "Grandma Seiko's Shrine",
+    "world": "Kanto",
+    "architecture": "a spirit-medium's shrine house of ofuda talismans and psychic training hall",
+    "element": "Psychic",
+    "element_family": "Mind",
+    "role": "Controller",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 80,
+      "def": 56,
+      "spd": 74,
+      "tech": 90,
+      "build": 60,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Psychokinesis / Spirit Sight",
+      "description": "telekinetic grabs, aura barriers and battle intuition against aliens and spirits alike",
+      "ultimate": "Psychokinetic Crush: Aura Burst"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 12
+  },
+  {
+    "id": 577,
+    "name": "Turbo Granny",
+    "anime": "Dandadan",
+    "city": "Cursed Speed Tunnel",
+    "world": "Kanto",
+    "architecture": "a haunted tunnel of blur-trails and a maneki-neko cat body shelf",
+    "element": "Speed",
+    "element_family": "Shadow",
+    "role": "Trickster",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 56,
+      "atk": 80,
+      "def": 50,
+      "spd": 99,
+      "tech": 72,
+      "build": 46,
+      "power_level": 67
+    },
+    "signature": {
+      "name": "Cursed Velocity",
+      "description": "a yokai of impossible speed and curses, later trapped in a lucky cat body but still fierce",
+      "ultimate": "Turbo Granny: Speed Curse Ram"
+    },
+    "brick_cost": 400,
+    "city_pieces": 952,
+    "unlock_level": 12
+  },
+  {
+    "id": 578,
+    "name": "Haruka Sakura",
+    "anime": "Wind Breaker",
+    "city": "Furin High Rooftop",
+    "world": "Makochi Town",
+    "architecture": "a delinquent high school rooftop of shopping-street banners and a town that protects its own",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 76,
+      "atk": 82,
+      "def": 66,
+      "spd": 80,
+      "tech": 46,
+      "build": 56,
+      "power_level": 68
+    },
+    "signature": {
+      "name": "Bofurin Fist",
+      "description": "raw street brawling with lightning-fast counters and a top-dog stubbornness",
+      "ultimate": "Furin Fist: Top of the Heap"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1072,
+    "unlock_level": 12
+  },
+  {
+    "id": 579,
+    "name": "Hajime Umemiya",
+    "anime": "Wind Breaker",
+    "city": "Furin Rooftop Garden",
+    "world": "Makochi Town",
+    "architecture": "a rooftop vegetable garden of a gentle king, wooden benches and a view of Makochi",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Guardian",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 92,
+      "atk": 88,
+      "def": 88,
+      "spd": 66,
+      "tech": 60,
+      "build": 70,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Leader of Bofurin",
+      "description": "overwhelming strength restrained by kindness; single blows that end fights",
+      "ultimate": "Umemiya's Resolve: One Blow"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 13
+  },
+  {
+    "id": 580,
+    "name": "Taro Sakamoto",
+    "anime": "Sakamoto Days",
+    "city": "Sakamoto Convenience Store",
+    "world": "Tokyo",
+    "architecture": "a family convenience store hiding a legendary hitman's arsenal in the snack aisle",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Tactician",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 90,
+      "atk": 92,
+      "def": 84,
+      "spd": 80,
+      "tech": 96,
+      "build": 74,
+      "power_level": 86
+    },
+    "signature": {
+      "name": "Legendary Hitman Reflexes",
+      "description": "turns anything into a weapon; slims down mid-fight for extreme speed and never kills",
+      "ultimate": "Slim Mode: Store Aisle Massacre"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1288,
+    "unlock_level": 13
+  },
+  {
+    "id": 581,
+    "name": "Shin Asakura",
+    "anime": "Sakamoto Days",
+    "city": "Sakamoto Store Back Room",
+    "world": "Tokyo",
+    "architecture": "a stockroom of energy drinks, a sleeping bag and a psychic's training notepad",
+    "element": "Psychic",
+    "element_family": "Mind",
+    "role": "Assassin",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 62,
+      "atk": 78,
+      "def": 54,
+      "spd": 86,
+      "tech": 84,
+      "build": 52,
+      "power_level": 69
+    },
+    "signature": {
+      "name": "Mind Reading Combat",
+      "description": "reads opponents' thoughts a second ahead to dodge and counter perfectly",
+      "ultimate": "Clairvoyant Counter: Mind Blade"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1024,
+    "unlock_level": 13
+  },
+  {
+    "id": 582,
+    "name": "Nagumo",
+    "anime": "Sakamoto Days",
+    "city": "Order Headquarters",
+    "world": "Tokyo",
+    "architecture": "a shadowy assassin's HQ of disguise closets, a knife wall and a joker's mirror",
+    "element": "Illusion",
+    "element_family": "Mind",
+    "role": "Trickster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 70,
+      "atk": 88,
+      "def": 62,
+      "spd": 88,
+      "tech": 90,
+      "build": 60,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Master of Disguise / Knife",
+      "description": "shape-shifting disguises, knife throws from impossible angles and a playful lethal edge",
+      "ultimate": "Nagumo's Trick: Face-Swap Kill"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 14
+  },
+  {
+    "id": 583,
+    "name": "Bojji",
+    "anime": "Ranking of Kings",
+    "city": "Bosse Kingdom Great Hall",
+    "world": "Bosse Kingdom",
+    "architecture": "a giant-built castle with tiny-prince steps, a training yard and Kage's shadow corner",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 50,
+      "atk": 86,
+      "def": 44,
+      "spd": 96,
+      "tech": 88,
+      "build": 44,
+      "power_level": 68
+    },
+    "signature": {
+      "name": "Despa's Sword Style",
+      "description": "deaf, tiny prince who cannot cut, but strikes vital points with sword-tap precision and dodges everything",
+      "ultimate": "Prince's Resolve: Vital Point Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 928,
+    "unlock_level": 14
+  },
+  {
+    "id": 584,
+    "name": "Kage",
+    "anime": "Ranking of Kings",
+    "city": "Shadow Clan Ruins",
+    "world": "Bosse Kingdom",
+    "architecture": "a ruined assassin village of black-shadow pools and a prince's loyal friend's hideout",
+    "element": "Shadow",
+    "element_family": "Shadow",
+    "role": "Trickster",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 54,
+      "atk": 72,
+      "def": 52,
+      "spd": 80,
+      "tech": 80,
+      "build": 46,
+      "power_level": 64
+    },
+    "signature": {
+      "name": "Shadow Clan Body",
+      "description": "a living shadow that slips through cracks, steals and stabs from the dark",
+      "ultimate": "Shadow Dive: Backstab"
+    },
+    "brick_cost": 400,
+    "city_pieces": 952,
+    "unlock_level": 14
+  },
+  {
+    "id": 585,
+    "name": "Despa",
+    "anime": "Ranking of Kings",
+    "city": "Underworld Training Hall",
+    "world": "Underworld",
+    "architecture": "a gaudy training hall of a vain master, magic mirrors and a fabulous cape rack",
+    "element": "Magic",
+    "element_family": "Cosmic",
+    "role": "Support",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 52,
+      "atk": 60,
+      "def": 48,
+      "spd": 60,
+      "tech": 94,
+      "build": 56,
+      "power_level": 62
+    },
+    "signature": {
+      "name": "Master Swordsmanship Teacher",
+      "description": "sees talent in anyone; buffs allies and casts sparkling counter-magic",
+      "ultimate": "Despa's Lesson: Sparkling Guidance"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1072,
+    "unlock_level": 15
+  },
+  {
+    "id": 586,
+    "name": "Cid Kagenou (Shadow)",
+    "anime": "The Eminence in Shadow",
+    "city": "Shadow Garden Hideout",
+    "world": "Midgar Kingdom",
+    "architecture": "a hidden mansion of black-cloaked elites, a slime-sword vault and a chuunibyou's throne",
+    "element": "Shadow",
+    "element_family": "Shadow",
+    "role": "Assassin",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 82,
+      "atk": 98,
+      "def": 80,
+      "spd": 94,
+      "tech": 80,
+      "build": 64,
+      "power_level": 83
+    },
+    "signature": {
+      "name": "Slime Sword / I Am Atomic",
+      "description": "a trained-to-the-bone shadow lord with a shape-shifting slime blade and the world-erasing I Am Atomic",
+      "ultimate": "I Am Atomic"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1168,
+    "unlock_level": 15
+  },
+  {
+    "id": 587,
+    "name": "Alpha",
+    "anime": "The Eminence in Shadow",
+    "city": "Shadow Garden Elf Sanctum",
+    "world": "Midgar Kingdom",
+    "architecture": "an elf sanctum of moonlit blades and the Seven Shadows' council table",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 70,
+      "atk": 92,
+      "def": 64,
+      "spd": 92,
+      "tech": 86,
+      "build": 60,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Shadow Garden's First",
+      "description": "elf swordswoman whose slime-blade dances rival Shadow himself",
+      "ultimate": "Alpha Style: Moonlit Requiem"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 15
+  },
+  {
+    "id": 588,
+    "name": "Mugen",
+    "anime": "Samurai Champloo",
+    "city": "Ryukyu Pirate Cove",
+    "world": "Ryukyu",
+    "architecture": "a sun-bleached island cove of pirate shacks, breakdance circles and a bounty board",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Berserker",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 90,
+      "def": 60,
+      "spd": 90,
+      "tech": 50,
+      "build": 56,
+      "power_level": 70
+    },
+    "signature": {
+      "name": "Champloo Kendo",
+      "description": "unpredictable breakdance swordplay with metal geta kicks and street-fight dirty tricks",
+      "ultimate": "Champloo: Windmill Slash Frenzy"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1072,
+    "unlock_level": 16
+  },
+  {
+    "id": 589,
+    "name": "Jin",
+    "anime": "Samurai Champloo",
+    "city": "Mujushin Dojo Ruins",
+    "world": "Edo",
+    "architecture": "a burned-down dojo of formal tatami, glasses on the altar and a killed master's sword",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 68,
+      "atk": 92,
+      "def": 64,
+      "spd": 86,
+      "tech": 80,
+      "build": 58,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Mujushin Kenjutsu",
+      "description": "flawless classical swordsmanship with a sacrificial final counter",
+      "ultimate": "Mujushin: Sacrifice Counter"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 16
+  },
+  {
+    "id": 590,
+    "name": "Afro Samurai",
+    "anime": "Afro Samurai",
+    "city": "Number Two Headband Cliff",
+    "world": "Feudal Future",
+    "architecture": "a cliff of a fallen father's cross, headband billboards and Ninja Ninja's chatter",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 94,
+      "def": 66,
+      "spd": 88,
+      "tech": 62,
+      "build": 60,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Number Two Headband",
+      "description": "the Number Two who cuts through armies of headband hunters to face the god-like Number One",
+      "ultimate": "Number Two: Justice Cut"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 16
+  },
+  {
+    "id": 591,
+    "name": "Jubei Kibagami",
+    "anime": "Ninja Scroll",
+    "city": "Shimoda Ninja Village",
+    "world": "Feudal Japan",
+    "architecture": "a poisoned ninja village of rope bridges, demon forges and a wandering ronin's fire",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 90,
+      "def": 70,
+      "spd": 84,
+      "tech": 64,
+      "build": 62,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Vagabond Sword / Wind Slash",
+      "description": "a vagabond who beats the Eight Devils of Kimon with a thrown sword-slash and sheer stubbornness",
+      "ultimate": "Kimon Slayer: Thrown Blade Return"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 17
+  },
+  {
+    "id": 592,
+    "name": "Clare",
+    "anime": "Claymore",
+    "city": "Organization Training Grounds",
+    "world": "Sutare",
+    "architecture": "a grey stone fortress of half-yoma warriors, claymore racks and awakening-scarred yards",
+    "element": "Blade",
+    "element_family": "Blood",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 72,
+      "atk": 88,
+      "def": 68,
+      "spd": 90,
+      "tech": 74,
+      "build": 60,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Quicksword / Teresa's Flesh",
+      "description": "Quicksword arm from Irene; Wind-Cutter speed and a yoki-suppressed body built on Teresa's blood",
+      "ultimate": "Quicksword: Awakened Wind Cutter"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 17
+  },
+  {
+    "id": 593,
+    "name": "Teresa of the Faint Smile",
+    "anime": "Claymore",
+    "city": "Teresa's Mountain Refuge",
+    "world": "Sutare",
+    "architecture": "a snow-mountain refuge with a broken claymore sign and a calm smile carved in stone",
+    "element": "Blade",
+    "element_family": "Blood",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 86,
+      "atk": 98,
+      "def": 84,
+      "spd": 94,
+      "tech": 96,
+      "build": 70,
+      "power_level": 88
+    },
+    "signature": {
+      "name": "Faint Smile Mastery",
+      "description": "the strongest Claymore ever: reads yoki with zero release, cuts Priscilla-class foes with ease",
+      "ultimate": "Faint Smile: Perfect Read Slash"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1240,
+    "unlock_level": 17
+  },
+  {
+    "id": 594,
+    "name": "Priscilla",
+    "anime": "Claymore",
+    "city": "Awakened Being Wasteland",
+    "world": "North Lands",
+    "architecture": "a devastated northern wasteland of single-horned shadows and shattered towns",
+    "element": "Demon",
+    "element_family": "Blood",
+    "role": "Berserker",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 94,
+      "atk": 99,
+      "def": 84,
+      "spd": 90,
+      "tech": 50,
+      "build": 74,
+      "power_level": 82
+    },
+    "signature": {
+      "name": "Awakened Being Priscilla",
+      "description": "the one-horned Awakened Being with regeneration, extending limbs and unmatched yoki",
+      "ultimate": "Awakened Priscilla: Horn Impalement"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1288,
+    "unlock_level": 18
+  },
+  {
+    "id": 595,
+    "name": "Maka Albarn",
+    "anime": "Soul Eater",
+    "city": "Death Weapon Meister Academy",
+    "world": "Death City",
+    "architecture": "a skull-spired academy of laughing sun, candle-lit halls and weapon-partner dorms",
+    "element": "Soul",
+    "element_family": "Cosmic",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 72,
+      "atk": 86,
+      "def": 66,
+      "spd": 78,
+      "tech": 84,
+      "build": 60,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Scythe Meister / Soul Perception",
+      "description": "wields Soul the scythe, Witch Hunter slash and Genie Hunter anti-madness wavelength",
+      "ultimate": "Kishin Hunter: Soul Resonance"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 18
+  },
+  {
+    "id": 596,
+    "name": "Death the Kid",
+    "anime": "Soul Eater",
+    "city": "Gallows Mansion",
+    "world": "Death City",
+    "architecture": "a perfectly symmetrical mansion of twin pistols, Lines of Sanzu portraits and skull-motifs",
+    "element": "Death",
+    "element_family": "Shadow",
+    "role": "Marksman",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 68,
+      "atk": 88,
+      "def": 64,
+      "spd": 80,
+      "tech": 90,
+      "build": 62,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Death Cannon / Lines of Sanzu",
+      "description": "twin pistol Liz & Patty, symmetrical soul-wavelength shots, Death Cannon and Beelzebub skateboard",
+      "ultimate": "Death Cannon: Three Lines of Sanzu"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 18
+  },
+  {
+    "id": 597,
+    "name": "Black Star",
+    "anime": "Soul Eater",
+    "city": "Star Clan Ruins",
+    "world": "Death City",
+    "architecture": "a dark assassin-clan ruin of star-marked stones and a very loud ego",
+    "element": "Shadow",
+    "element_family": "Shadow",
+    "role": "Assassin",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 70,
+      "atk": 86,
+      "def": 58,
+      "spd": 90,
+      "tech": 54,
+      "build": 56,
+      "power_level": 69
+    },
+    "signature": {
+      "name": "Shadow Star / Soul Wavelength",
+      "description": "assassin who can't stay quiet: Black Star Big Wave direct wavelength punches and Tsubaki weapon forms",
+      "ultimate": "Shadow Star: Uncanny Sword Mode"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1072,
+    "unlock_level": 19
+  },
+  {
+    "id": 598,
+    "name": "Franken Stein",
+    "anime": "Soul Eater",
+    "city": "Stein's Patchwork Lab",
+    "world": "Death City",
+    "architecture": "a stitched laboratory of rolling chairs, dissection tables and a screw-through-head chalkboard",
+    "element": "Soul",
+    "element_family": "Cosmic",
+    "role": "Tactician",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 86,
+      "def": 70,
+      "spd": 74,
+      "tech": 98,
+      "build": 64,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Soul Thread Sutures / Soul Force",
+      "description": "dissects anything; Soul Force wavelength strikes and sutures that pin opponents in place",
+      "ultimate": "Soul Thread: Total Dissection"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 19
+  },
+  {
+    "id": 599,
+    "name": "Allen Walker",
+    "anime": "D.Gray-man",
+    "city": "Black Order Headquarters",
+    "world": "Europe",
+    "architecture": "a gothic tower HQ of exorcist gates, science division labs and the Ark's white city gate",
+    "element": "Holy",
+    "element_family": "Light",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 88,
+      "def": 70,
+      "spd": 80,
+      "tech": 80,
+      "build": 64,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Crown Clown / Sword of Exorcism",
+      "description": "parasitic Innocence arm, Crown Clown cloak and the Sword of Exorcism that purifies akuma",
+      "ultimate": "Crown Clown: Edge End"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 19
+  },
+  {
+    "id": 600,
+    "name": "Yato",
+    "anime": "Noragami",
+    "city": "Yato's Roadside Shrine",
+    "world": "Tokyo",
+    "architecture": "a tiny hand-built shrine of five-yen coins, a jersey-clad god and a delivery-god business card",
+    "element": "Spirit",
+    "element_family": "Cosmic",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 70,
+      "atk": 90,
+      "def": 62,
+      "spd": 92,
+      "tech": 76,
+      "build": 58,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Sekki / God of Calamity",
+      "description": "the delivery god who cuts phantoms with Sekki and a boundary-slashing 'Rend'",
+      "ultimate": "Rend: Sekki Calamity Slash"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 20
+  },
+  {
+    "id": 601,
+    "name": "Bishamonten",
+    "anime": "Noragami",
+    "city": "Bishamon's Heavenly Estate",
+    "world": "Takamagahara",
+    "architecture": "a heavenly estate of a hundred shinki, a lion companion and a warrior god's armory",
+    "element": "Holy",
+    "element_family": "Light",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 84,
+      "atk": 94,
+      "def": 86,
+      "spd": 80,
+      "tech": 82,
+      "build": 76,
+      "power_level": 84
+    },
+    "signature": {
+      "name": "Vaisravana Arsenal",
+      "description": "the war goddess wielding dozens of Regalias at once: guns, whips, blades and Kinuha shields",
+      "ultimate": "Vaisravana: Hundred Regalia Volley"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1312,
+    "unlock_level": 20
+  },
+  {
+    "id": 602,
+    "name": "Shotaro Kaneda",
+    "anime": "Akira",
+    "city": "Neo-Tokyo Highway Overpass",
+    "world": "Neo-Tokyo",
+    "architecture": "a neon-lit highway of bike gangs, riot police barricades and the Olympic stadium under construction",
+    "element": "Tech",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 64,
+      "atk": 76,
+      "def": 56,
+      "spd": 84,
+      "tech": 66,
+      "build": 54,
+      "power_level": 67
+    },
+    "signature": {
+      "name": "Laser Rifle / Red Bike",
+      "description": "stolen military laser rifle and a red bike drift-kick; the gang leader who won't back down",
+      "ultimate": "Laser Rifle: Bike Drift Barrage"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1048,
+    "unlock_level": 1
+  },
+  {
+    "id": 603,
+    "name": "Tetsuo Shima",
+    "anime": "Akira",
+    "city": "Olympic Stadium Crater",
+    "world": "Neo-Tokyo",
+    "architecture": "a shattered stadium of psychic craters, a floating throne and a red cape",
+    "element": "Psychic",
+    "element_family": "Mind",
+    "role": "Caster",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 76,
+      "atk": 98,
+      "def": 78,
+      "spd": 72,
+      "tech": 88,
+      "build": 70,
+      "power_level": 80
+    },
+    "signature": {
+      "name": "Awakened Psychic Power",
+      "description": "telekinetic shockwaves, satellite-laser interception and a body that mutates into flesh",
+      "ultimate": "Akira Awakening: Psychic Singularity"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1240,
+    "unlock_level": 2
+  },
+  {
+    "id": 604,
+    "name": "Motoko Kusanagi",
+    "anime": "Ghost in the Shell",
+    "city": "Section 9 Headquarters",
+    "world": "New Port City",
+    "architecture": "a high-tech police HQ of think-tanks, thermo-optic labs and a Major's rooftop dive spot",
+    "element": "Tech",
+    "element_family": "Tech",
+    "role": "Tactician",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 84,
+      "def": 70,
+      "spd": 84,
+      "tech": 96,
+      "build": 68,
+      "power_level": 79
+    },
+    "signature": {
+      "name": "Full Cyborg / Thermoptic Camouflage",
+      "description": "optical-camo stealth, cyberbrain hacking and a prosthetic body with superhuman strength",
+      "ultimate": "Ghost Hack: Thermoptic Strike"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1216,
+    "unlock_level": 3
+  },
+  {
+    "id": 605,
+    "name": "Shinya Kogami",
+    "anime": "Psycho-Pass",
+    "city": "MWPSB Division One",
+    "world": "Tokyo",
+    "architecture": "a sterile bureau of Dominator racks, Sibyl scans and an enforcer's smoking bench",
+    "element": "Gun",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 70,
+      "atk": 80,
+      "def": 60,
+      "spd": 78,
+      "tech": 84,
+      "build": 60,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Dominator / Detective Instinct",
+      "description": "Sibyl-linked Dominator that paralyzes or eliminates, plus brutal boxing and detective intuition",
+      "ultimate": "Dominator: Lethal Eliminator"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1120,
+    "unlock_level": 4
+  },
+  {
+    "id": 606,
+    "name": "Shogo Makishima",
+    "anime": "Psycho-Pass",
+    "city": "Makishima's Reading Room",
+    "world": "Tokyo",
+    "architecture": "a hidden library of banned books, a razor collection and a white-haired philosopher's lounge",
+    "element": "Mind",
+    "element_family": "Mind",
+    "role": "Trickster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 84,
+      "def": 56,
+      "spd": 84,
+      "tech": 98,
+      "build": 62,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Criminally Asymptomatic",
+      "description": "invisible to Sibyl scans; razor combat and psychological traps that turn allies against each other",
+      "ultimate": "Asymptomatic: Razor Philosophy"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 5
+  },
+  {
+    "id": 607,
+    "name": "Shinichi Izumi / Migi",
+    "anime": "Parasyte",
+    "city": "Izumi Residence",
+    "world": "Tokyo",
+    "architecture": "a quiet suburban home with a parasite-shaped garden statue and a right hand that eats lunch",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 88,
+      "def": 68,
+      "spd": 86,
+      "tech": 80,
+      "build": 60,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Migi Parasite",
+      "description": "right hand becomes blades and shields; enhanced body from a parasite's cells",
+      "ultimate": "Migi Fusion: Blade Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 6
+  },
+  {
+    "id": 608,
+    "name": "Shin (Li Xin)",
+    "anime": "Kingdom",
+    "city": "Hi Shin Unit Camp",
+    "world": "Qin",
+    "architecture": "a war-camp of a rising general's banners, a spear rack of Ouki's glaive and a hill of ambitions",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 84,
+      "atk": 90,
+      "def": 72,
+      "spd": 80,
+      "tech": 58,
+      "build": 64,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Ouki's Glaive",
+      "description": "a servant boy turned general whose glaive strokes grow heavier with every fallen enemy",
+      "ultimate": "Great General's Slash: Ouki's Legacy"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 7
+  },
+  {
+    "id": 609,
+    "name": "Ouki",
+    "anime": "Kingdom",
+    "city": "Ouki's Great General Hall",
+    "world": "Qin",
+    "architecture": "a magnificent general's estate of bronze war drums, a giant glaive rack and a hearty laugh",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 96,
+      "atk": 98,
+      "def": 90,
+      "spd": 72,
+      "tech": 90,
+      "build": 82,
+      "power_level": 88
+    },
+    "signature": {
+      "name": "Monstrous Bird of Qin",
+      "description": "legendary Great General with bone-crushing glaive swings and instinctive battlefield command",
+      "ultimate": "Monstrous Bird: Battlefield Sovereign"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1384,
+    "unlock_level": 8
+  },
+  {
+    "id": 610,
+    "name": "Kyoukai",
+    "anime": "Kingdom",
+    "city": "Shiyuu Clan Shrine",
+    "world": "Qin",
+    "architecture": "a mountain shrine of dance-sword rituals and a sister's grave",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 94,
+      "def": 60,
+      "spd": 96,
+      "tech": 82,
+      "build": 54,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Shiyuu Priestess Dance",
+      "description": "the Priestess Dance trance that multiplies speed; whirling sword kills before the eye can follow",
+      "ultimate": "Priestess Dance: Shiyuu Trance"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1048,
+    "unlock_level": 9
+  },
+  {
+    "id": 611,
+    "name": "Aladdin",
+    "anime": "Magi: The Labyrinth of Magic",
+    "city": "Sindria Magic Tower",
+    "world": "Sindria",
+    "architecture": "a coral-white tower of a magi's flute, rukh light and a djinn's lounge",
+    "element": "Magic",
+    "element_family": "Cosmic",
+    "role": "Caster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 62,
+      "atk": 88,
+      "def": 58,
+      "spd": 72,
+      "tech": 98,
+      "build": 66,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Magi / Solomon's Wisdom",
+      "description": "commands rukh: Har-Har Infigar fireballs, magic barriers and Ugo's giant djinn arms",
+      "ultimate": "Solomon's Wisdom: Ugo Djinn Strike"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 10
+  },
+  {
+    "id": 612,
+    "name": "Alibaba Saluja",
+    "anime": "Magi: The Labyrinth of Magic",
+    "city": "Balbadd Palace Docks",
+    "world": "Balbadd",
+    "architecture": "a merchant kingdom of harbor palaces, Amon's flame-forge and a slums memorial",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 88,
+      "def": 70,
+      "spd": 82,
+      "tech": 72,
+      "build": 62,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Amon Djinn Equip",
+      "description": "Amon's flaming sword, Djinn Equip full body armor and Amol Saiqa heat wave",
+      "ultimate": "Amol Saiqa: Djinn Equip Blaze"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 11
+  },
+  {
+    "id": 613,
+    "name": "Sinbad",
+    "anime": "Magi: The Labyrinth of Magic",
+    "city": "Sindria Royal Palace",
+    "world": "Sindria",
+    "architecture": "an island kingdom palace of seven djinn shrines, tropical feasts and a high king's throne",
+    "element": "Lightning",
+    "element_family": "Lightning",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 88,
+      "atk": 96,
+      "def": 84,
+      "spd": 82,
+      "tech": 94,
+      "build": 84,
+      "power_level": 88
+    },
+    "signature": {
+      "name": "Seven Djinn Equips",
+      "description": "the High King who equips Baal, Focalor and Zepar: lightning blade, wind and mind-control roar",
+      "ultimate": "Bararaq Saiqa: Seven Djinn Storm"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1408,
+    "unlock_level": 12
+  },
+  {
+    "id": 614,
+    "name": "Hyakkimaru",
+    "anime": "Dororo",
+    "city": "Hall of Hell Temple",
+    "world": "Sengoku Japan",
+    "architecture": "a ruined temple of twelve demon statues, a prosthetic-arm workshop and a road of returned limbs",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 92,
+      "def": 64,
+      "spd": 90,
+      "tech": 72,
+      "build": 56,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Prosthetic Blade Arms",
+      "description": "demon-hunting boy with swords hidden in prosthetic arms, sensing souls without sight",
+      "ultimate": "Demon Slaying: Twin Arm Blades"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1072,
+    "unlock_level": 13
+  },
+  {
+    "id": 615,
+    "name": "Legoshi",
+    "anime": "Beastars",
+    "city": "Cherryton Academy Drama Club",
+    "world": "Cherryton",
+    "architecture": "a boarding school of carnivore/herbivore dorms, a backstage of props and a moonlit rooftop",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Bruiser",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 70,
+      "spd": 78,
+      "tech": 60,
+      "build": 58,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Grey Wolf Instinct",
+      "description": "a gentle wolf whose fangs and speed surge when protecting someone",
+      "ultimate": "Wolf Instinct: Full Moon Fang"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1096,
+    "unlock_level": 14
+  },
+  {
+    "id": 616,
+    "name": "Goblin Slayer",
+    "anime": "Goblin Slayer",
+    "city": "Frontier Adventurers Guild",
+    "world": "Frontier",
+    "architecture": "a bustling guild hall of quest boards, a farm outside town and a cave-mouth of torches",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Tactician",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 74,
+      "atk": 76,
+      "def": 84,
+      "spd": 60,
+      "tech": 92,
+      "build": 66,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Goblin Extermination Tactics",
+      "description": "dirty tactics: torches, throwing knives, shield bashes and a sword just long enough",
+      "ultimate": "Goblin Slayer: Cave Purge"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1192,
+    "unlock_level": 15
+  },
+  {
+    "id": 617,
+    "name": "Naofumi Iwatani",
+    "anime": "The Rising of the Shield Hero",
+    "city": "Raphtalia's Village Rebuilt",
+    "world": "Melromarc",
+    "architecture": "a rebuilt seaside village of the Shield Hero's merchant carts, a slave-crest shrine and a raccoon totem",
+    "element": "Curse",
+    "element_family": "Shadow",
+    "role": "Guardian",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 96,
+      "atk": 60,
+      "def": 98,
+      "spd": 56,
+      "tech": 84,
+      "build": 80,
+      "power_level": 79
+    },
+    "signature": {
+      "name": "Legendary Shield / Wrath Shield",
+      "description": "unbreakable shields, Air Strike Shield walls and the cursed flames of the Wrath Shield",
+      "ultimate": "Wrath Shield: Iron Maiden"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1360,
+    "unlock_level": 16
+  },
+  {
+    "id": 618,
+    "name": "Zero Two",
+    "anime": "Darling in the Franxx",
+    "city": "Plantation 13 Mistilteinn",
+    "world": "Plantation 13",
+    "architecture": "a greenhouse-dome birdcage city of pilot dorms and Strelizia's hangar",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Berserker",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 92,
+      "def": 64,
+      "spd": 90,
+      "tech": 62,
+      "build": 58,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Klaxosaur Blood / Strelizia",
+      "description": "horned klaxosaur-hybrid with feral claws, and the Strelizia mecha's lance charge",
+      "ultimate": "Strelizia: Stampede Mode"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 17
+  },
+  {
+    "id": 619,
+    "name": "Shizuo Heiwajima",
+    "anime": "Durarara!!",
+    "city": "Ikebukuro Vending Machine Street",
+    "world": "Ikebukuro",
+    "architecture": "a busy street of thrown vending machines, uprooted signs and a bartender's outfit shop",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Berserker",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 92,
+      "atk": 98,
+      "def": 80,
+      "spd": 72,
+      "tech": 36,
+      "build": 68,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Ikebukuro's Strongest",
+      "description": "inhuman anger-fueled strength: throws vending machines, guardrails and people",
+      "ultimate": "Vending Machine Rage: Guardrail Swing"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1216,
+    "unlock_level": 18
+  },
+  {
+    "id": 620,
+    "name": "Izaya Orihara",
+    "anime": "Durarara!!",
+    "city": "Shinjuku Information Office",
+    "world": "Shinjuku",
+    "architecture": "a high-rise info-broker office of chessboards, phone banks and a knife drawer",
+    "element": "Mind",
+    "element_family": "Mind",
+    "role": "Trickster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 56,
+      "atk": 80,
+      "def": 50,
+      "spd": 90,
+      "tech": 98,
+      "build": 56,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Information Broker / Flick Knife",
+      "description": "parkour knife fighter who manipulates everyone into fighting for him",
+      "ultimate": "Human Chess: Knife Manipulation"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1072,
+    "unlock_level": 19
+  },
+  {
+    "id": 621,
+    "name": "Celty Sturluson",
+    "anime": "Durarara!!",
+    "city": "Dullahan's Shadow Garage",
+    "world": "Ikebukuro",
+    "architecture": "a garage of a headless rider's black bike, shadow scythes and a helmet with cat ears",
+    "element": "Shadow",
+    "element_family": "Shadow",
+    "role": "Controller",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 78,
+      "atk": 84,
+      "def": 74,
+      "spd": 86,
+      "tech": 72,
+      "build": 62,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Dullahan Shadow",
+      "description": "the headless rider forms scythes, nets and armor from living shadow; rides Shooter the horse-bike",
+      "ultimate": "Shadow Scythe: Dullahan's Ride"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 20
+  },
+  {
+    "id": 622,
+    "name": "Tsunayoshi Sawada",
+    "anime": "Katekyo Hitman Reborn!",
+    "city": "Vongola Namimori Base",
+    "world": "Namimori",
+    "architecture": "a suburban house hiding a mafia base of dying-will flame lamps and a tutor's espresso bar",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 74,
+      "atk": 88,
+      "def": 70,
+      "spd": 84,
+      "tech": 70,
+      "build": 60,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Dying Will / X-Burner",
+      "description": "Hyper Dying Will mode with sky flames, X-Gloves flight and the X-Burner beam",
+      "ultimate": "X-Burner: Full Sky Flame"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 1
+  },
+  {
+    "id": 623,
+    "name": "Kyoya Hibari",
+    "anime": "Katekyo Hitman Reborn!",
+    "city": "Namimori Disciplinary Committee Room",
+    "world": "Namimori",
+    "architecture": "a school reception room of tonfa racks, a bird named Hibird and a cloud-flame hedgehog",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 76,
+      "atk": 90,
+      "def": 70,
+      "spd": 86,
+      "tech": 64,
+      "build": 58,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Cloud Tonfa / Roll",
+      "description": "tonfa strikes multiplied by cloud flames; propagating hedgehog Roll cages",
+      "ultimate": "Cloud Propagation: Tonfa Cage"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 2
+  },
+  {
+    "id": 624,
+    "name": "Xanxus",
+    "anime": "Katekyo Hitman Reborn!",
+    "city": "Varia Headquarters",
+    "world": "Italy",
+    "architecture": "a dark Italian castle of the assassination squad with flame-scorched throne and wrath",
+    "element": "Fire",
+    "element_family": "Fire",
+    "role": "Marksman",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 80,
+      "atk": 94,
+      "def": 72,
+      "spd": 70,
+      "tech": 66,
+      "build": 66,
+      "power_level": 75
+    },
+    "signature": {
+      "name": "Flame of Wrath Guns",
+      "description": "dual flame pistols of Wrath that blast apart walls; Bester the liger box weapon",
+      "ultimate": "Colpo d'Addio: Flame of Wrath"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 3
+  },
+  {
+    "id": 625,
+    "name": "Osamu Dazai",
+    "anime": "Bungo Stray Dogs",
+    "city": "Armed Detective Agency Office",
+    "world": "Yokohama",
+    "architecture": "a harbor city office of detective desks, bandaged mysteries and a river for suicide attempts",
+    "element": "Mind",
+    "element_family": "Mind",
+    "role": "Tactician",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 62,
+      "atk": 70,
+      "def": 56,
+      "spd": 80,
+      "tech": 99,
+      "build": 62,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "No Longer Human",
+      "description": "nullifies any ability on touch; strategist who wins fights before they start",
+      "ultimate": "No Longer Human: Ability Nullification"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1144,
+    "unlock_level": 4
+  },
+  {
+    "id": 626,
+    "name": "Atsushi Nakajima",
+    "anime": "Bungo Stray Dogs",
+    "city": "Yokohama Harbor Rooftops",
+    "world": "Yokohama",
+    "architecture": "port rooftops of a white tiger's leap, orphanage memories and detective agency rain",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 82,
+      "atk": 88,
+      "def": 72,
+      "spd": 88,
+      "tech": 54,
+      "build": 60,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Beast Beneath the Moonlight",
+      "description": "transforms into a white tiger with claws that shred and regeneration that heals lost limbs",
+      "ultimate": "Moonlight Tiger: Full Beast"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1120,
+    "unlock_level": 5
+  },
+  {
+    "id": 627,
+    "name": "Ryunosuke Akutagawa",
+    "anime": "Bungo Stray Dogs",
+    "city": "Port Mafia Docks",
+    "world": "Yokohama",
+    "architecture": "fog-choked mafia docks of black coats, cargo shadows and a Rashomon warehouse",
+    "element": "Shadow",
+    "element_family": "Shadow",
+    "role": "Assassin",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 94,
+      "def": 60,
+      "spd": 84,
+      "tech": 70,
+      "build": 54,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Rashomon",
+      "description": "the black-beast coat that devours space itself: Rashomon fangs, shields and Demonic Armor",
+      "ultimate": "Rashomon: Murakumo Devouring Fang"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1048,
+    "unlock_level": 6
+  },
+  {
+    "id": 628,
+    "name": "Chuuya Nakahara",
+    "anime": "Bungo Stray Dogs",
+    "city": "Port Mafia Executive Suite",
+    "world": "Yokohama",
+    "architecture": "a mafia executive's suite of gravity-cracked walls, hat stands and a wine cellar",
+    "element": "Gravity",
+    "element_family": "Cosmic",
+    "role": "Bruiser",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 80,
+      "atk": 96,
+      "def": 74,
+      "spd": 90,
+      "tech": 66,
+      "build": 60,
+      "power_level": 78
+    },
+    "signature": {
+      "name": "Upon the Tainted Sorrow / Corruption",
+      "description": "gravity manipulation with crushing kicks; Corruption unleashes black gravity spheres",
+      "ultimate": "Corruption: Tainted Sorrow Overdrive"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1120,
+    "unlock_level": 7
+  },
+  {
+    "id": 629,
+    "name": "Toriko",
+    "anime": "Toriko",
+    "city": "Gourmet Age Kitchen Camp",
+    "world": "Human World",
+    "architecture": "a wilderness camp of giant grills, ingredient cages and a bishokuya's tent",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 96,
+      "atk": 96,
+      "def": 82,
+      "spd": 72,
+      "tech": 54,
+      "build": 78,
+      "power_level": 80
+    },
+    "signature": {
+      "name": "Fork, Knife & Nail Punch",
+      "description": "Gourmet Cells: Fork thrusts, Knife slashes, multi-hit Nail Punch and appetite demon awakening",
+      "ultimate": "Appetite Demon: 100-Ren Nail Punch"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1336,
+    "unlock_level": 8
+  },
+  {
+    "id": 630,
+    "name": "Zebra",
+    "anime": "Toriko",
+    "city": "Honey Prison Underground Pit",
+    "world": "Human World",
+    "architecture": "a maximum-security gourmet prison of sound-echo pits and a chained beast's cell",
+    "element": "Sound",
+    "element_family": "Wind",
+    "role": "Bombardier",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 98,
+      "atk": 98,
+      "def": 84,
+      "spd": 60,
+      "tech": 60,
+      "build": 80,
+      "power_level": 80
+    },
+    "signature": {
+      "name": "Sound Bazooka / Voice Missile",
+      "description": "annihilates by voice: Sound Bazooka, Thunder Noise and Death Noise that stops hearts",
+      "ultimate": "Death Noise: Sound Armor Finale"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1360,
+    "unlock_level": 9
+  },
+  {
+    "id": 631,
+    "name": "Revy",
+    "anime": "Black Lagoon",
+    "city": "Roanapur Yellow Flag Bar",
+    "world": "Roanapur",
+    "architecture": "a lawless Thai port city of a bullet-scarred bar, a torpedo boat dock and cigarette smoke",
+    "element": "Gun",
+    "element_family": "Tech",
+    "role": "Marksman",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 64,
+      "atk": 90,
+      "def": 54,
+      "spd": 90,
+      "tech": 72,
+      "build": 52,
+      "power_level": 70
+    },
+    "signature": {
+      "name": "Two Hands / Cutlass Berettas",
+      "description": "dual custom Berettas fired in a dance of dodges and headshots; a killer who enjoys the job",
+      "ultimate": "Two Hands: Whirlwind Bullets"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1024,
+    "unlock_level": 10
+  },
+  {
+    "id": 632,
+    "name": "Roberta",
+    "anime": "Black Lagoon",
+    "city": "Lovelace Family Estate",
+    "world": "Venezuela",
+    "architecture": "a colonial estate of a maid's umbrella gun, a ruined plantation and a sunset of vengeance",
+    "element": "Gun",
+    "element_family": "Tech",
+    "role": "Berserker",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 86,
+      "atk": 92,
+      "def": 80,
+      "spd": 78,
+      "tech": 62,
+      "build": 66,
+      "power_level": 77
+    },
+    "signature": {
+      "name": "Bloodhound of Florencia",
+      "description": "a maid with an umbrella shotgun, unfeeling combat-drug frenzy and terminator durability",
+      "ultimate": "Bloodhound: Umbrella Massacre"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1192,
+    "unlock_level": 11
+  },
+  {
+    "id": 633,
+    "name": "Laios Touden",
+    "anime": "Delicious in Dungeon",
+    "city": "Golden Kingdom Dungeon Gate",
+    "world": "Island Kingdom",
+    "architecture": "a dungeon-town entrance of adventurer stalls, monster butcheries and a golden ruin below",
+    "element": "Beast",
+    "element_family": "Beast",
+    "role": "Bruiser",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 78,
+      "atk": 82,
+      "def": 70,
+      "spd": 66,
+      "tech": 70,
+      "build": 64,
+      "power_level": 72
+    },
+    "signature": {
+      "name": "Monster Knowledge / Kensuke",
+      "description": "monster-obsessed knight with a living sword Kensuke and beastly transformation instincts",
+      "ultimate": "Beast Form: Monster Lord Bite"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1168,
+    "unlock_level": 12
+  },
+  {
+    "id": 634,
+    "name": "Marcille Donato",
+    "anime": "Delicious in Dungeon",
+    "city": "Dungeon Mage Laboratory",
+    "world": "Island Kingdom",
+    "architecture": "an underground lab of spell scrolls, a mandrake garden and a dark-magic staff stand",
+    "element": "Magic",
+    "element_family": "Cosmic",
+    "role": "Caster",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 56,
+      "atk": 86,
+      "def": 48,
+      "spd": 64,
+      "tech": 96,
+      "build": 58,
+      "power_level": 68
+    },
+    "signature": {
+      "name": "Ancient Magic / Lord of the Dungeon",
+      "description": "elf mage with explosive elemental spells, healing and forbidden ancient magic that warps the dungeon",
+      "ultimate": "Dungeon Lord: Ancient Magic Surge"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1096,
+    "unlock_level": 13
+  },
+  {
+    "id": 635,
+    "name": "Senshi",
+    "anime": "Delicious in Dungeon",
+    "city": "Dwarven Kitchen Camp",
+    "world": "Dungeon Floor 3",
+    "architecture": "a dwarven camp of a cooking pot on an adamantine axe and monster-cutting boards",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Guardian",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 88,
+      "atk": 74,
+      "def": 88,
+      "spd": 50,
+      "tech": 72,
+      "build": 74,
+      "power_level": 74
+    },
+    "signature": {
+      "name": "Adamantine Axe & Cookpot",
+      "description": "dwarven cook whose adamant axe splits golems and whose pot shields allies",
+      "ultimate": "Adamantine Cleave: Cookpot Guard"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1288,
+    "unlock_level": 14
+  },
+  {
+    "id": 636,
+    "name": "Jin Mori",
+    "anime": "The God of High School",
+    "city": "GOH Arena Seoul",
+    "world": "Seoul",
+    "architecture": "a stadium arena of national taekwondo banners, a Monkey King's cloud and a nyoibo rack",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Brawler",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 90,
+      "atk": 96,
+      "def": 78,
+      "spd": 92,
+      "tech": 60,
+      "build": 64,
+      "power_level": 80
+    },
+    "signature": {
+      "name": "Renewal Taekwondo / Monkey King",
+      "description": "Renewal Taekwondo kicks, Blue Dragon Kick and the Monkey King charyeok with the Ruyi Jingu staff",
+      "ultimate": "Monkey King: Nyoibo Descent"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1168,
+    "unlock_level": 15
+  },
+  {
+    "id": 637,
+    "name": "Han Daewi",
+    "anime": "The God of High School",
+    "city": "Busan Boxing Gym",
+    "world": "Busan",
+    "architecture": "a seaside boxing gym of taped fists, a Haetae statue and a friend's hospital photo",
+    "element": "Physical",
+    "element_family": "Might",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 82,
+      "atk": 88,
+      "def": 78,
+      "spd": 80,
+      "tech": 66,
+      "build": 64,
+      "power_level": 76
+    },
+    "signature": {
+      "name": "Full Contact Karate / Haetae",
+      "description": "full-contact karate with the Haetae borrowed power: lightning fists and wind-splitting Wave",
+      "ultimate": "Haetae: Thunder Wave Fist"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1168,
+    "unlock_level": 16
+  },
+  {
+    "id": 638,
+    "name": "Yoo Mira",
+    "anime": "The God of High School",
+    "city": "Moonlight Sword Dojo",
+    "world": "Seoul",
+    "architecture": "a family dojo of the Moon Light Sword Style, a moonlit yard and a sword under glass",
+    "element": "Blade",
+    "element_family": "Might",
+    "role": "Assassin",
+    "rarity": "Epic",
+    "stats": {
+      "hp": 68,
+      "atk": 84,
+      "def": 60,
+      "spd": 84,
+      "tech": 74,
+      "build": 54,
+      "power_level": 71
+    },
+    "signature": {
+      "name": "Moon Light Sword Style",
+      "description": "the 25th master of Moon Light Sword: swift slashes and the charyeok Lu Bu's halberd",
+      "ultimate": "Moonlight: Lu Bu's Halberd"
+    },
+    "brick_cost": 400,
+    "city_pieces": 1048,
+    "unlock_level": 17
+  },
+  {
+    "id": 639,
+    "name": "Cadis Etrama Di Raizel",
+    "anime": "Noblesse",
+    "city": "Frankenstein's Mansion",
+    "world": "Seoul",
+    "architecture": "a stately mansion of a sleeping noble's coffin, a butler's lab and a ramen cupboard",
+    "element": "Blood",
+    "element_family": "Blood",
+    "role": "Warlord",
+    "rarity": "Mythic",
+    "stats": {
+      "hp": 86,
+      "atk": 99,
+      "def": 84,
+      "spd": 88,
+      "tech": 90,
+      "build": 74,
+      "power_level": 87
+    },
+    "signature": {
+      "name": "Blood Field / Noblesse Judgement",
+      "description": "the Noblesse whose blood-red field erases anything; power that consumes his own life",
+      "ultimate": "Blood Field: Judgement of the Noblesse"
+    },
+    "brick_cost": 1000,
+    "city_pieces": 1288,
+    "unlock_level": 18
+  },
+  {
+    "id": 640,
+    "name": "Frankenstein",
+    "anime": "Noblesse",
+    "city": "Ye Ran High School Principal's Office",
+    "world": "Seoul",
+    "architecture": "a school principal's office hiding a dark spear laboratory and a devoted butler's tea set",
+    "element": "Dark",
+    "element_family": "Shadow",
+    "role": "Bruiser",
+    "rarity": "Legendary",
+    "stats": {
+      "hp": 84,
+      "atk": 92,
+      "def": 80,
+      "spd": 84,
+      "tech": 90,
+      "build": 70,
+      "power_level": 83
+    },
+    "signature": {
+      "name": "Dark Spear",
+      "description": "the Dark Spear weapon of consumed souls that he barely controls; a butler-scientist warrior",
+      "ultimate": "Dark Spear: Soul Devouring Storm"
+    },
+    "brick_cost": 650,
+    "city_pieces": 1240,
+    "unlock_level": 19
+  }
+]

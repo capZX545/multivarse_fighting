@@ -1,0 +1,10 @@
+.gh_token
+__pycache__/
+*.pyc
+.buildozer/
+bin/
+dist/
+build/
+*.spec.bak
+.venv/
+save/
