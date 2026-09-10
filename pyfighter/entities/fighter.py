@@ -670,9 +670,35 @@ class Fighter:
         return "hit"
 
     # ---------- رسم ----------
+    def _special_frame(self, anim):
+        """حرکات ویژه‌ی چندفریمی: فریم‌ها روی طول کل حرکت (startup+active+recovery) پخش می‌شوند.
+        فریم‌های ابتدایی در startup، فریم میانی/اوج در active، بقیه در recovery؛ فریم آخر نگه داشته می‌شود."""
+        mv = self.move
+        n = len(anim.frames)
+        if n <= 1 or mv is None:
+            return anim.frame_at(self.state_t)
+        total = max(1, mv.startup + mv.active + mv.recovery)
+        t = min(self.state_t, total - 1)
+        # نگاشت غیرخطی: تا پایان active نیمه‌ی اول+یک فریم را می‌بینیم، بقیه در recovery
+        peak = max(1, n // 2)
+        if t < mv.startup:
+            i = int(t / max(1, mv.startup) * peak)
+        elif t < mv.startup + mv.active:
+            i = peak + int((t - mv.startup) / max(1, mv.active) * max(1, (n - peak) // 2))
+        else:
+            rest = n - 1 - (peak + max(1, (n - peak) // 2) - 1)
+            i = (peak + max(1, (n - peak) // 2) - 1) + int((t - mv.startup - mv.active) / max(1, mv.recovery) * (rest + 1))
+        i = max(0, min(n - 1, i))
+        return anim.frames[i], i
+
     def draw(self, surf, cam, debug=False):
-        anim = self.sprites.get(self._anim_name(), self.facing_right)
-        frame, _ = anim.frame_at(self.state_t)
+        name = self._anim_name()
+        anim = self.sprites.get(name, self.facing_right)
+        if self.state == "attack" and self.move and name == self.move.anim and name not in (
+                "light_punch", "medium_punch", "heavy_punch", "light_kick", "medium_kick", "heavy_kick", "crouch_punch"):
+            frame, _ = self._special_frame(anim)
+        else:
+            frame, _ = anim.frame_at(self.state_t)
         if frame is None:
             return
         fx = int(self.x - cam - frame.get_width() // 2)

@@ -1,4 +1,21 @@
 {
-  "heights": {"rasengan": 1.0, "clone": 1.0, "shuriken": 1.28, "kurama": 1.02, "hit_0": 1.0, "hit_1": 0.82, "hit_4": 0.72, "punch_4": 1.18},
-  "widths":  {"hit_2": 1.0, "hit_3": 1.12}
+ "heights": {
+  "shuriken": 1.28,
+  "kurama": 1.02,
+  "hit_0": 1.0,
+  "hit_1": 0.82,
+  "hit_4": 0.72,
+  "punch_4": 1.18,
+  "rasengan_0": 1.0,
+  "rasengan_1": 0.851,
+  "rasengan_2": 0.79,
+  "rasengan_3": 0.971,
+  "clone_0": 1.0,
+  "clone_1": 0.983,
+  "clone_2": 0.983
+ },
+ "widths": {
+  "hit_2": 1.0,
+  "hit_3": 1.12
+ }
 }

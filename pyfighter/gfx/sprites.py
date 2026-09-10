@@ -149,7 +149,8 @@ class CharacterSprites:
         for p in glob.glob(os.path.join(self.dir, "*_0.png")):
             name = os.path.basename(p)[:-6]
             if name not in ("idle", "walk", "jump", "cb", "punch", "kick", "hit"):
-                a(name, name, 999, False)
+                # حرکت ویژه: چند فریم پشت‌سرهم؛ زمان‌بندی واقعی در Fighter بر اساس طول حرکت کشیده می‌شود
+                a(name, name, 6, False)
         # جایگزین‌ها
         for missing, fallback in [("walk", "idle"), ("walk_back", "walk"), ("crouch", "idle"), ("block", "idle"),
                                   ("crouch_block", "crouch"), ("crouch_punch", "light_punch"),
