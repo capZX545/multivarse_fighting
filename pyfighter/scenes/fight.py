@@ -260,10 +260,15 @@ class FightScene(Scene):
         if hb.colliderect(b.hurt_rect()) or (a.move and "domain" in a.move.tags):
             a.mark_hit()
             c = hb.clip(b.hurt_rect()).center if hb.colliderect(b.hurt_rect()) else (b.x, b.y - 180)
-            self._apply_hit(a, b, a.move, unblockable="domain" in a.move.tags, hit_pos=c)
+            self._apply_hit(a, b, a.move, unblockable=("domain" in a.move.tags or "unblockable" in a.move.tags), hit_pos=c)
             if "domain" in a.move.tags:
                 self.fx.domain(a.d.aura_color)
                 self.shake = 30
+            if "fx_kirin" in a.move.tags:
+                self.fx.kirin(b.x, S.FLOOR_Y)
+                self.shake = 24
+            if "fx_amaterasu" in a.move.tags:
+                self.fx.amaterasu(b.x, b.y - 150)
 
     def _resolve_projectiles(self, a, b):
         for p in a.projectiles:

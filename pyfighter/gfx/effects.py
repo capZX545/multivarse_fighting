@@ -45,9 +45,31 @@ class Effects:
         self.flash = 8
         self.flash_col = (255, 255, 255)
 
+    def kirin(self, x, ground_y):
+        """صاعقه‌ی Kirin: خط شکسته از بالای صفحه تا زمین + فلش سفید."""
+        pts = [(x + random.randint(-40, 40), 0)]
+        y = 0
+        while y < ground_y:
+            y += random.randint(40, 90)
+            pts.append((x + random.randint(-70, 70), min(y, ground_y)))
+        pts[-1] = (x, ground_y)
+        self.items.append({"kind": "bolt", "pts": pts, "x": x, "y": ground_y, "t": 0, "life": 18})
+        self.flash = 5
+        self.flash_col = (200, 220, 255)
+        self.explosion((x, ground_y - 120), (170, 200, 255), 150)
+
+    def amaterasu(self, x, y):
+        for _ in range(26):
+            self.items.append({"kind": "bf", "x": x + random.randint(-90, 90), "y": y + random.randint(-40, 40),
+                               "vx": random.uniform(-0.6, 0.6), "vy": random.uniform(-3.5, -1.0),
+                               "t": 0, "life": random.randint(30, 60), "col": (12, 6, 20)})
+
     def update(self):
         for it in self.items:
             it["t"] += 1
+            if it["kind"] == "bf":
+                it["x"] += it["vx"]
+                it["y"] += it["vy"]
             if it["kind"] == "p":
                 it["x"] += it["vx"]
                 it["y"] += it["vy"]
@@ -77,6 +99,21 @@ class Effects:
         for it in self.items:
             x, y, t = int(it["x"] - cam), int(it["y"]), it["t"]
             k = it["kind"]
+            if k == "bolt":
+                pts = [(px - cam, py) for px, py in it["pts"]]
+                w = max(1, 14 - t)
+                pygame.draw.lines(surf, (150, 180, 255), False, pts, w + 6)
+                pygame.draw.lines(surf, (255, 255, 255), False, pts, w)
+                for px, py in pts[1:-1]:
+                    if random.random() < 0.5:
+                        pygame.draw.line(surf, (200, 220, 255), (px, py), (px + random.randint(-60, 60), py + random.randint(10, 60)), 2)
+                continue
+            if k == "bf":
+                life = 1 - t / it["life"]
+                r = int(6 + 10 * life)
+                pygame.draw.circle(surf, (8, 4, 14), (x, y), r)
+                pygame.draw.circle(surf, (50, 20, 70), (x, y - r // 2), max(1, r // 2))
+                continue
             if k == "spark":
                 s = it["size"] * (1 + t * 0.15)
                 pts = []

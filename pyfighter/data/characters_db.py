@@ -19,6 +19,7 @@ def slugify(name: str) -> str:
 SLUG_OVERRIDES = {
     "satoru_gojo": "gojo",
     "naruto_uzumaki": "naruto",
+    "sasuke_uchiha": "sasuke",
 }
 
 

@@ -2,7 +2,7 @@
 import importlib
 
 _REGISTRY = {}
-_MODULES = ["gojo", "naruto"]
+_MODULES = ["gojo", "naruto", "sasuke"]
 
 
 def get_def(slug: str):

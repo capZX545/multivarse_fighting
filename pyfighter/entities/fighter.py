@@ -121,6 +121,30 @@ class Projectile:
             for k in range(3):
                 a = -t * 0.6 + k * 2.09
                 pygame.draw.arc(surf, (140, 210, 255), (cx - r * 0.45, cy - r * 0.45, r * 0.9, r * 0.9), a, a + 1.4, 3)
+        elif self.kind == "fireball":
+            r = self.radius
+            for i, (tx, ty) in enumerate(self.trail[-6:]):
+                k = i / 6
+                pygame.draw.circle(surf, (255, 90 + int(80 * k), 20), (int(tx - cam), int(ty)), int(r * (0.35 + 0.5 * k)))
+            pygame.draw.circle(surf, (255, 110, 20), (cx, cy), r)
+            pygame.draw.circle(surf, (255, 190, 60), (cx, cy), int(r * 0.7))
+            pygame.draw.circle(surf, (255, 245, 190), (cx, cy), int(r * 0.38))
+            for k in range(6):
+                a = t * 0.5 + k * 1.05
+                pygame.draw.circle(surf, (255, 140, 30), (int(cx + math.cos(a) * r * 1.05), int(cy + math.sin(a) * r * 0.8)), 6)
+        elif self.kind == "indra_arrow":
+            r = self.radius
+            d = 1 if self.vx > 0 else -1
+            g = pygame.Surface((r * 6, r * 3), pygame.SRCALPHA)
+            pygame.draw.ellipse(g, (140, 70, 255, 80), (0, 0, r * 6, r * 3))
+            surf.blit(g, (cx - r * 3, cy - r * 1.5))
+            pts = [(cx + d * r * 2.2, cy), (cx - d * r * 2.0, cy - r * 0.45), (cx - d * r * 1.3, cy), (cx - d * r * 2.0, cy + r * 0.45)]
+            pygame.draw.polygon(surf, (200, 170, 255), pts)
+            pygame.draw.polygon(surf, (110, 40, 220), pts, 3)
+            for k in range(7):
+                a = t * 1.3 + k
+                pygame.draw.line(surf, (230, 220, 255), (cx + math.cos(a) * r, cy + math.sin(a) * r * 0.6),
+                                 (cx + math.cos(a + 1.5) * r * 1.6, cy + math.sin(a + 1.5) * r), 2)
         elif self.kind == "bijuu_dama":
             pygame.draw.circle(surf, (40, 20, 60), (cx, cy), self.radius)
             pygame.draw.circle(surf, (120, 40, 140), (cx, cy), int(self.radius * 0.8), 5)
@@ -225,6 +249,9 @@ class Fighter:
         self.transform = None
         self.transform_t = 0
         self.stunned = 0
+        self.burn_t = 0        # Amaterasu: فریم‌های باقی‌مانده‌ی سوختن
+        self.burn_dmg = 0
+        self.burn_by = None
         self.wins = 0
         self.flash = 0
         self.aura = 0.0
@@ -326,6 +353,8 @@ class Fighter:
             return self.start_move("medium_kick" if st.fwd(self.facing_right) else "light_kick")
         if st.pressed["special"] and self.transform == "kurama" and self.meter >= 100:
             return self.start_move("bijuu_dama") if "bijuu_dama" in self.d.moves else False
+        if st.pressed["special"] and self.transform == "susanoo" and self.meter >= 100:
+            return self.start_move("indra_arrow") if "indra_arrow" in self.d.moves else False
         return False
 
     # ---------- به‌روزرسانی ----------
@@ -349,6 +378,13 @@ class Fighter:
         self.aura = max(0.0, self.aura - 0.01)
         if self.stunned > 0:
             self.stunned -= 1
+        if self.burn_t > 0:
+            self.burn_t -= 1
+            if self.burn_t % 12 == 0 and not self.dead:
+                self.health = max(1, self.health - self.burn_dmg)
+                self.flash = 2
+        if self.transform == "susanoo" and self.armor < 2:
+            self.armor = 2
 
         st = inp_source.state if inp_source else None
         speed_mult = 1.35 if self.transform == "kurama" else 1.0
@@ -528,7 +564,7 @@ class Fighter:
                     return None
                 self._pending_key = "h0"
             hb = mv.hitbox
-            reach = 1.25 if self.transform == "kurama" else 1.0
+            reach = 1.25 if self.transform in ("kurama", "susanoo") else 1.0
             if self.facing_right:
                 return pygame.Rect(int(self.x + hb.x), int(self.y + hb.y), int(hb.w * reach), int(hb.h))
             return pygame.Rect(int(self.x - hb.x - hb.w * reach), int(self.y + hb.y), int(hb.w * reach), int(hb.h))
@@ -576,6 +612,8 @@ class Fighter:
         dmg = int(mv.damage * damage_scale)
         if self.transform == "kurama":
             dmg = int(dmg * 0.8)
+        elif self.transform == "susanoo":
+            dmg = int(dmg * 0.6)
         self.health -= dmg
         self.add_meter(S.METER_PER_HIT_TAKEN)
         self.hitstun = mv.hitstun
@@ -590,6 +628,12 @@ class Fighter:
         # جهت پرتاب بر اساس موقعیت حمله‌کننده
         push_dir = -1 if attacker.x < self.x else 1
         self.vx = kb * push_dir
+        for tg in mv.tags:
+            if tg.startswith("burn_"):
+                _, dur, per = tg.split("_")
+                self.burn_t = int(dur)
+                self.burn_dmg = int(per)
+                self.burn_by = attacker
         if "stun_180" in mv.tags:
             self.stunned = 180
             self.set_state("hit_high")
@@ -622,9 +666,9 @@ class Fighter:
         if self.state in ("lying", "ko") or (self.state == "knockdown" and not self.airborne):
             fy = int(self.y - frame.get_height())
         # هاله‌ی تبدیل/چاکرا
-        if self.transform == "kurama" or self.aura > 0:
+        if self.transform or self.aura > 0:
             glow = pygame.Surface(frame.get_size(), pygame.SRCALPHA)
-            col = (255, 190, 40) if self.transform == "kurama" else self.d.aura_color
+            col = {"kurama": (255, 190, 40), "susanoo": (140, 60, 255)}.get(self.transform, self.d.aura_color)
             a = 120 if self.transform else int(160 * self.aura)
             mask = pygame.mask.from_surface(frame)
             outline = mask.outline(4)
@@ -638,7 +682,11 @@ class Fighter:
         elif self.transform == "kurama" and not self.sprites.has("kurama"):
             img = frame.copy()
             img.fill((90, 60, 0, 0), special_flags=pygame.BLEND_RGB_ADD)
+        if self.transform == "susanoo" and not self.sprites.has("susanoo"):
+            self._draw_susanoo(surf, cam)
         surf.blit(img, (fx, fy))
+        if self.burn_t > 0:
+            self._draw_amaterasu(surf, fx, fy, frame)
         for p in self.projectiles:
             p.draw(surf, cam)
         for c in self.clones:
@@ -650,8 +698,39 @@ class Fighter:
             if hb:
                 pygame.draw.rect(surf, (255, 60, 60), hb.move(-cam, 0), 2)
 
+    def _draw_susanoo(self, surf, cam):
+        """اسکلت/قفسه‌ی سینه‌ی Susanoo بنفش نیمه‌شفاف دور کاراکتر (تا زمانی که اسپرایت اختصاصی نداریم)."""
+        t = self.state_t
+        w, h = int(self.d.width * 5.2), int(self.d.height * 1.55)
+        g = pygame.Surface((w, h), pygame.SRCALPHA)
+        col = (120, 50, 230, 70)
+        edge = (190, 140, 255, 150)
+        cx = w // 2
+        pygame.draw.ellipse(g, col, (cx - w * 0.36, h * 0.2, w * 0.72, h * 0.75))
+        pygame.draw.ellipse(g, edge, (cx - w * 0.36, h * 0.2, w * 0.72, h * 0.75), 4)
+        for i in range(5):  # دنده‌ها
+            y = h * 0.3 + i * h * 0.1
+            pygame.draw.arc(g, edge, (cx - w * 0.34, y, w * 0.68, h * 0.28), 0.2, 2.9, 4)
+        # جمجمه
+        pygame.draw.ellipse(g, (150, 90, 255, 110), (cx - w * 0.14, h * 0.02, w * 0.28, h * 0.22))
+        pygame.draw.ellipse(g, edge, (cx - w * 0.14, h * 0.02, w * 0.28, h * 0.22), 3)
+        for sx in (-1, 1):
+            pygame.draw.circle(g, (255, 230, 120, 200), (int(cx + sx * w * 0.06), int(h * 0.11)), 6 + (t // 6) % 3)
+        surf.blit(g, (int(self.x - cam - cx), int(self.y - h * 0.98)))
+
+    def _draw_amaterasu(self, surf, fx, fy, frame):
+        import random as _r
+        rnd = _r.Random(self.state_t // 3)
+        w, h = frame.get_size()
+        for _ in range(9):
+            px = fx + rnd.randint(int(w * 0.25), int(w * 0.75))
+            py = fy + rnd.randint(int(h * 0.05), int(h * 0.9))
+            rr = rnd.randint(8, 18)
+            pygame.draw.circle(surf, (10, 5, 15), (px, py), rr)
+            pygame.draw.circle(surf, (40, 20, 60), (px, py - rr // 2), rr // 2)
+
     def _anim_name(self):
-        if self.transform == "kurama" and self.sprites.has("kurama") and self.state in ("idle", "walk", "walk_back", "dash", "crouch", "block"):
+        if self.transform and self.sprites.has(self.transform) and self.state in ("idle", "walk", "walk_back", "dash", "crouch", "block"):
             return "kurama"
         if self.state == "attack" and self.move:
             return self.move.anim if self.sprites.has(self.move.anim) else "medium_punch"
