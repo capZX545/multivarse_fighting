@@ -32,13 +32,21 @@ def build():
         "Sage Art: Wind Release Rasenshuriken", "shuriken", 26, 10, 30, 280,
         Hitbox(60, -260, 40, 40), "ultimate", 40, 26, 14.0, launch=-12.0, knockdown=True,
         meter_cost=200, invuln_frames=8,
-        projectile={"kind": "rasenshuriken", "speed": 11.0, "life": 80, "radius": 60, "expand_radius": 150,
+        projectile={"kind": "rasenshuriken", "speed": 11.0, "life": 80, "radius": 56, "expand_radius": 115,
                     "color": (150, 220, 255), "core": (255, 255, 255), "hits": 4, "y": -240, "pierce": False},
     )
     moves["kurama"] = Move(
         "Kurama Chakra Mode", "kurama", 30, 4, 20, 0,
         Hitbox(0, 0, 0, 0), "ultimate", 0, 0, 0.0,
         meter_cost=300, invuln_frames=40, tags=["transform_kurama_600", "cinematic"],
+    )
+
+    moves["bijuu_dama"] = Move(
+        "Tailed Beast Bomb", "kurama", 22, 6, 28, 220,
+        Hitbox(60, -240, 40, 40), "special", 30, 22, 16.0, launch=-10.0, knockdown=True,
+        meter_cost=100,
+        projectile={"kind": "bijuu_dama", "speed": 9.0, "life": 90, "radius": 64, "hits": 1, "y": -230,
+                    "color": (60, 20, 80), "core": (255, 200, 80)},
     )
 
     specials = [

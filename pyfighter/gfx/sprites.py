@@ -61,25 +61,43 @@ class CharacterSprites:
         if not idle:
             raise FileNotFoundError(f"no idle sprite for {slug}")
         self.scale = target_height / idle[0].get_height()
+        self.target_height = target_height
+        self.meta = {"heights": {}, "widths": {}}
+        mp = os.path.join(self.dir, "meta.json")
+        if os.path.isfile(mp):
+            import json
+            with open(mp, encoding="utf-8") as f:
+                self.meta.update(json.load(f))
         self.anims = {}
         self.flipped = {}
         self._build()
         self.portrait = self._load_portrait()
 
-    def _scaled(self, frames):
+    def _scaled(self, frames, keys=None):
+        """مقیاس: پیش‌فرض نسبت idle؛ اگر در meta برای این فریم ضریب ارتفاع/عرض تعریف شده، به آن نرمال می‌شود."""
         out = []
-        for f in frames:
+        for i, f in enumerate(frames):
             w, h = f.get_size()
-            out.append(pygame.transform.smoothscale(f, (max(1, int(w * self.scale)), max(1, int(h * self.scale)))))
+            sc = self.scale
+            key = keys[i] if keys else None
+            if key:
+                base = key.rsplit("_", 1)[0]
+                hk = self.meta["heights"].get(key, self.meta["heights"].get(base))
+                wk = self.meta["widths"].get(key, self.meta["widths"].get(base))
+                if hk is not None:
+                    sc = self.target_height * hk / h
+                elif wk is not None:
+                    sc = self.target_height * wk / w
+            out.append(pygame.transform.smoothscale(f, (max(1, int(w * sc)), max(1, int(h * sc)))))
         return out
 
     def _add(self, name, prefix, durations, loop, indices=None):
         frames = load_frames(self.dir, prefix)
-        if indices is not None:
-            frames = [frames[i] for i in indices if i < len(frames)]
+        idx = list(range(len(frames))) if indices is None else [i for i in indices if i < len(frames)]
+        frames = [frames[i] for i in idx]
         if not frames:
             return False
-        frames = self._scaled(frames)
+        frames = self._scaled(frames, keys=[f"{prefix}_{i}" for i in idx])
         self.anims[name] = Animation(frames, durations, loop)
         self.flipped[name] = Animation([pygame.transform.flip(f, True, False) for f in frames], durations, loop)
         return True
@@ -131,7 +149,7 @@ class CharacterSprites:
         for p in glob.glob(os.path.join(self.dir, "*_0.png")):
             name = os.path.basename(p)[:-6]
             if name not in ("idle", "walk", "jump", "cb", "punch", "kick", "hit"):
-                a(name, name, 8, False)
+                a(name, name, 999, False)
         # جایگزین‌ها
         for missing, fallback in [("walk", "idle"), ("walk_back", "walk"), ("crouch", "idle"), ("block", "idle"),
                                   ("crouch_block", "crouch"), ("crouch_punch", "light_punch"),

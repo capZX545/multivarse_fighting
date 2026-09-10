@@ -76,9 +76,12 @@ class Projectile:
         cx, cy = int(self.x - cam), int(self.y)
         t = self.age
         if self.kind == "blue_orb":
+            g = pygame.Surface((self.radius * 4, self.radius * 4), pygame.SRCALPHA)
+            pygame.draw.circle(g, (80, 150, 255, 60), (self.radius * 2, self.radius * 2), int(self.radius * 1.8))
+            surf.blit(g, (cx - self.radius * 2, cy - self.radius * 2))
             for i in range(3):
                 rr = self.radius + 6 * math.sin(t * 0.4 + i)
-                pygame.draw.circle(surf, (*self.color, ), (cx, cy), int(rr), 3)
+                pygame.draw.circle(surf, self.color, (cx, cy), int(rr), 2)
             pygame.draw.circle(surf, self.color, (cx, cy), int(self.radius * 0.7))
             pygame.draw.circle(surf, self.core, (cx, cy), int(self.radius * 0.35))
             for k in range(6):
@@ -97,15 +100,27 @@ class Projectile:
             pygame.draw.circle(surf, self.core, (cx, cy), int(self.radius * 0.35))
         elif self.kind == "rasenshuriken":
             r = self.radius
-            pts = []
+            # هاله
+            g = pygame.Surface((int(r * 3.6), int(r * 3.6)), pygame.SRCALPHA)
+            pygame.draw.circle(g, (170, 230, 255, 60), (int(r * 1.8), int(r * 1.8)), int(r * 1.35))
+            surf.blit(g, (cx - r * 1.8, cy - r * 1.8))
+            # چهار تیغه‌ی خمیده‌ی چرخان
             for k in range(4):
-                a = t * 0.5 + k * math.pi / 2
-                pts.append((cx + math.cos(a) * r * 1.6, cy + math.sin(a) * r * 1.6))
-                pts.append((cx + math.cos(a + 0.5) * r * 0.7, cy + math.sin(a + 0.5) * r * 0.7))
-            pygame.draw.polygon(surf, self.color, pts)
-            pygame.draw.polygon(surf, self.core, pts, 2)
-            pygame.draw.circle(surf, self.color, (cx, cy), int(r * 0.6))
-            pygame.draw.circle(surf, self.core, (cx, cy), int(r * 0.3))
+                a0 = t * 0.45 + k * math.pi / 2
+                pts = [(cx, cy)]
+                for j in range(7):
+                    a = a0 + j * 0.13
+                    rr = r * (0.5 + 1.2 * math.sin(j / 6 * math.pi))
+                    pts.append((cx + math.cos(a) * rr, cy + math.sin(a) * rr))
+                pygame.draw.polygon(surf, (200, 240, 255), pts)
+                pygame.draw.polygon(surf, (120, 200, 255), pts, 2)
+            # حلقه‌ی باد
+            pygame.draw.circle(surf, (230, 250, 255), (cx, cy), int(r * 0.95), 2)
+            # هسته‌ی سفید با مارپیچ
+            pygame.draw.circle(surf, (255, 255, 255), (cx, cy), int(r * 0.5))
+            for k in range(3):
+                a = -t * 0.6 + k * 2.09
+                pygame.draw.arc(surf, (140, 210, 255), (cx - r * 0.45, cy - r * 0.45, r * 0.9, r * 0.9), a, a + 1.4, 3)
         elif self.kind == "bijuu_dama":
             pygame.draw.circle(surf, (40, 20, 60), (cx, cy), self.radius)
             pygame.draw.circle(surf, (120, 40, 140), (cx, cy), int(self.radius * 0.8), 5)
@@ -620,7 +635,7 @@ class Fighter:
         if self.flash > 0 and self.flash % 2 == 0:
             img = frame.copy()
             img.fill((255, 255, 255, 0), special_flags=pygame.BLEND_RGB_ADD)
-        elif self.transform == "kurama":
+        elif self.transform == "kurama" and not self.sprites.has("kurama"):
             img = frame.copy()
             img.fill((90, 60, 0, 0), special_flags=pygame.BLEND_RGB_ADD)
         surf.blit(img, (fx, fy))
@@ -636,6 +651,8 @@ class Fighter:
                 pygame.draw.rect(surf, (255, 60, 60), hb.move(-cam, 0), 2)
 
     def _anim_name(self):
+        if self.transform == "kurama" and self.sprites.has("kurama") and self.state in ("idle", "walk", "walk_back", "dash", "crouch", "block"):
+            return "kurama"
         if self.state == "attack" and self.move:
             return self.move.anim if self.sprites.has(self.move.anim) else "medium_punch"
         if self.state == "dash":
