@@ -6,6 +6,7 @@ import random
 import pygame
 
 from pyfighter import settings as S
+from pyfighter.gfx import fxsprites as FX
 from pyfighter.characters import get_def
 from pyfighter.characters.base import Move, Hitbox
 from pyfighter.gfx.sprites import get_character_sprites
@@ -33,6 +34,11 @@ class Projectile:
         self.unblockable = p.get("unblockable", False)
         self.pull = p.get("pull", 0.0)
         self.expand_radius = p.get("expand_radius", 0)
+        self.sprite = p.get("sprite")            # نام اسپرایت در assets/fx/<slug>/
+        self.sprite_slug = owner.d.slug
+        self.sprite_h = p.get("sprite_h", 0)     # ارتفاع رندر؛ 0 = 2*radius
+        self.sprite_w = p.get("sprite_w", 0)
+        self.sprite_fps = p.get("sprite_fps", 6)
         self.expanding = False
         self.hit_cd = 0
         self.age = 0
@@ -75,6 +81,14 @@ class Projectile:
     def draw(self, surf, cam):
         cx, cy = int(self.x - cam), int(self.y)
         t = self.age
+        if self.sprite and FX.has(self.sprite_slug, self.sprite):
+            img = FX.frame(self.sprite_slug, self.sprite, t // max(1, self.sprite_fps),
+                           height=self.sprite_h or int(self.radius * 2.2),
+                           width=self.sprite_w or None, flip=self.dir < 0)
+            if self.sprite_w:
+                img = FX.frame(self.sprite_slug, self.sprite, t // max(1, self.sprite_fps), width=self.sprite_w, flip=self.dir < 0)
+            surf.blit(img, (cx - img.get_width() // 2, cy - img.get_height() // 2))
+            return
         if self.kind == "blue_orb":
             g = pygame.Surface((self.radius * 4, self.radius * 4), pygame.SRCALPHA)
             pygame.draw.circle(g, (80, 150, 255, 60), (self.radius * 2, self.radius * 2), int(self.radius * 1.8))
@@ -682,9 +696,11 @@ class Fighter:
         elif self.transform == "kurama" and not self.sprites.has("kurama"):
             img = frame.copy()
             img.fill((90, 60, 0, 0), special_flags=pygame.BLEND_RGB_ADD)
-        if self.transform == "susanoo" and not self.sprites.has("susanoo"):
+        if self.transform == "susanoo":
             self._draw_susanoo(surf, cam)
         surf.blit(img, (fx, fy))
+        if self.state == "attack" and self.move and self.move.name in ("Chidori", "Chidori Sharp Spear") and FX.has(self.d.slug, "chidori"):
+            self._draw_chidori(surf, cam, frame, fx, fy)
         if self.burn_t > 0:
             self._draw_amaterasu(surf, fx, fy, frame)
         for p in self.projectiles:
@@ -699,8 +715,27 @@ class Fighter:
                 pygame.draw.rect(surf, (255, 60, 60), hb.move(-cam, 0), 2)
 
     def _draw_susanoo(self, surf, cam):
-        """اسکلت/قفسه‌ی سینه‌ی Susanoo بنفش نیمه‌شفاف دور کاراکتر (تا زمانی که اسپرایت اختصاصی نداریم)."""
+        """Susanoo ساسکه: اسپرایت اختصاصی پشت کاراکتر (نیمه‌شفاف، نفس‌کشنده)؛ در نبود اسپرایت، نسخه‌ی پروسیجرال."""
         t = self.state_t
+        if self.sprites.has("susanoo"):
+            fr = self.sprites.anims["susanoo"].frames[0]
+            H = int(self.d.height * 1.72 * (1 + 0.012 * math.sin(t * 0.08)))
+            sc = H / fr.get_height()
+            key = ("susanoo_big", H, self.facing_right)
+            cache = self.__dict__.setdefault("_big_cache", {})
+            if key not in cache:
+                img = pygame.transform.smoothscale(fr, (int(fr.get_width() * sc), H))
+                if not self.facing_right:
+                    img = pygame.transform.flip(img, True, False)
+                img.set_alpha(190)
+                cache.clear()
+                cache[key] = img
+            img = cache[key]
+            # اگر تازه فعال شده: از پایین بالا می‌آید
+            grow = min(1.0, self.aura * 1.5) if self.transform_t > 560 else 1.0
+            fy = int(self.y - H * (0.98 if grow >= 1 else 0.98 * (0.6 + 0.4 * grow)))
+            surf.blit(img, (int(self.x - cam - img.get_width() * (0.5 if self.facing_right else 0.5)), fy))
+            return
         w, h = int(self.d.width * 5.2), int(self.d.height * 1.55)
         g = pygame.Surface((w, h), pygame.SRCALPHA)
         col = (120, 50, 230, 70)
@@ -718,7 +753,37 @@ class Fighter:
             pygame.draw.circle(g, (255, 230, 120, 200), (int(cx + sx * w * 0.06), int(h * 0.11)), 6 + (t // 6) % 3)
         surf.blit(g, (int(self.x - cam - cx), int(self.y - h * 0.98)))
 
+    def _draw_chidori(self, surf, cam, frame, fx, fy):
+        """گوی رعد روی دست جلو؛ برای Sharp Spear کشیده می‌شود."""
+        t = self.state_t
+        w, h = frame.get_size()
+        hx = fx + int(w * (0.86 if self.facing_right else 0.14))
+        hy = fy + int(h * 0.27)
+        if self.move.name == "Chidori Sharp Spear":
+            mv = self.move
+            if mv.startup <= t < mv.startup + mv.active + 6:
+                L = int(mv.hitbox.w * 1.0)
+                img = FX.frame(self.d.slug, "chidori", t // 3, height=int(h * 0.5))
+                img = pygame.transform.scale(img, (L, int(h * 0.3)))
+                if not self.facing_right:
+                    img = pygame.transform.flip(img, True, False)
+                sx = hx if self.facing_right else hx - L
+                surf.blit(img, (sx, hy - img.get_height() // 2))
+            else:
+                img = FX.frame(self.d.slug, "chidori", t // 3, height=int(h * 0.45))
+                surf.blit(img, (hx - img.get_width() // 2, hy - img.get_height() // 2))
+            return
+        img = FX.frame(self.d.slug, "chidori", t // 3, height=int(h * (0.55 + 0.1 * math.sin(t * 0.9))))
+        surf.blit(img, (hx - img.get_width() // 2, hy - img.get_height() // 2))
+
     def _draw_amaterasu(self, surf, fx, fy, frame):
+        if FX.has("sasuke", "amaterasu"):
+            w, h = frame.get_size()
+            t = self.state_t + self.burn_t
+            for j, (ox, oy, hh) in enumerate(((0.5, 0.15, 0.55), (0.25, 0.5, 0.42), (0.7, 0.55, 0.4))):
+                img = FX.frame("sasuke", "amaterasu", t // 5 + j, height=int(h * hh))
+                surf.blit(img, (fx + int(w * ox) - img.get_width() // 2, fy + int(h * oy) - img.get_height() // 2))
+            return
         import random as _r
         rnd = _r.Random(self.state_t // 3)
         w, h = frame.get_size()
@@ -730,7 +795,7 @@ class Fighter:
             pygame.draw.circle(surf, (40, 20, 60), (px, py - rr // 2), rr // 2)
 
     def _anim_name(self):
-        if self.transform and self.sprites.has(self.transform) and self.state in ("idle", "walk", "walk_back", "dash", "crouch", "block"):
+        if self.transform == "kurama" and self.sprites.has("kurama") and self.state in ("idle", "walk", "walk_back", "dash", "crouch", "block"):
             return "kurama"
         if self.state == "attack" and self.move:
             return self.move.anim if self.sprites.has(self.move.anim) else "medium_punch"

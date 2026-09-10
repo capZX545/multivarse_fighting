@@ -3,6 +3,7 @@ import math
 import random
 import pygame
 from pyfighter import settings as S
+from pyfighter.gfx import fxsprites as FX
 
 
 class Effects:
@@ -53,7 +54,7 @@ class Effects:
             y += random.randint(40, 90)
             pts.append((x + random.randint(-70, 70), min(y, ground_y)))
         pts[-1] = (x, ground_y)
-        self.items.append({"kind": "bolt", "pts": pts, "x": x, "y": ground_y, "t": 0, "life": 18})
+        self.items.append({"kind": "bolt", "pts": pts, "x": x, "y": ground_y, "t": 0, "life": 22})
         self.flash = 5
         self.flash_col = (200, 220, 255)
         self.explosion((x, ground_y - 120), (170, 200, 255), 150)
@@ -99,6 +100,20 @@ class Effects:
         for it in self.items:
             x, y, t = int(it["x"] - cam), int(it["y"]), it["t"]
             k = it["kind"]
+            if k == "bolt" and FX.has("sasuke", "kirin"):
+                img = FX.frame("sasuke", "kirin", 0, height=int(it["y"] + 40))
+                life = it["life"]
+                a = 255 if t < life * 0.6 else int(255 * (1 - (t - life * 0.6) / (life * 0.4)))
+                img = img.copy() if a < 255 else img
+                if a < 255:
+                    img.set_alpha(max(0, a))
+                ox = x - img.get_width() // 2 + (random.randint(-3, 3) if t < 6 else 0)
+                surf.blit(img, (ox, it["y"] - img.get_height() + 20))
+                if t < 4:
+                    ov = pygame.Surface((S.SCREEN_WIDTH, S.SCREEN_HEIGHT), pygame.SRCALPHA)
+                    ov.fill((220, 235, 255, 90))
+                    surf.blit(ov, (0, 0))
+                continue
             if k == "bolt":
                 pts = [(px - cam, py) for px, py in it["pts"]]
                 w = max(1, 14 - t)
